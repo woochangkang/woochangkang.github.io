@@ -30,7 +30,7 @@ author_profile: true
 * Kang, Woo Chang. 2015. "Electoral Cycles in Pork Barrel Politics: Evidence from South Korea 1989-2008." *Electoral Studies*, 2015, 38: 46-58
 
 ## Peer-reviewed Articles (in Korean)
-* 강우창$\cdot$이준호. 2024. 오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년) [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]. 한국정치학회보, 58(1): 7-32
-
+* 강우창⦁이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32
+* 강우창⦁김지한. 2024. "사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석[Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54
 
 
