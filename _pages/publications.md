@@ -22,7 +22,7 @@ author_profile: true
 * Kang, Woo Chang, Won-ho Park and BK Song. 2018. "The Effect of Incumbency in National and Local Elections: Evidence from South Korea." *Electoral Studies*, 2018, 56: 47-60 
 * Kang, Woo Chang. 2018. "Presidential Pork Barrel Politics with Polarized Voters." *Political Geography*, 2018, 67: 12-22
 * Horiuchi, Yusaku and Woo Chang Kang. 2018. "Why Should the Republicans Pray for Rain? Electoral Consequences of Rainfall Revisited." *American Politics Research*, 2018, 46(5): 869-889. 
-  - Featured in [New York Times]{https://goo.gl/pSs4Z6} 
+  - Featured in [New York Times]<https://goo.gl/pSs4Z6> 
 * Chang, Han Il and Woo Chang Kang. 2018. "Trust, Economic Development and Attitudes toward Immigration." *Canadian Journal of Political Science*, 2018, 51(2): 357-378
 * Kang, Woo Chang and Jean Hong. 2017. "Unexplored Consequences of Violence against Civilians during the Korean War." *Journal of East Asian Studies*, 2017, 17(3): 259-283 
 * Hong, Ji Yeon and Woo Chang Kang. 2017. "Trauma and Stigma: the Long-term Effects of Wartime Violence on Political Attitudes." *Conflict Management and Peace Science*, 2017, 34(3): 264-286
@@ -30,7 +30,7 @@ author_profile: true
 * Kang, Woo Chang. 2015. "Electoral Cycles in Pork Barrel Politics: Evidence from South Korea 1989-2008." *Electoral Studies*, 2015, 38: 46-58
 
 ## Peer-reviewed Articles (in Korean)
-* 강우창⦁이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32
-* 강우창⦁김지한. 2024. "사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석[Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54
+* 강우창\(\cdots\)이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32
+* 강우창\(\cdots\)김지한. 2024. "사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석[Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54
 
 
