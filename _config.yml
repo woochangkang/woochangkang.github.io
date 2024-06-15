@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Woo Chang Kang's Webpage"
+title                    : "Woo Chang Kang"
 title_separator          : "-"
 name                     : &name "Woo Chang Kang"
 description              : &description "personal description"
