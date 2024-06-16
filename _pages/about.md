@@ -12,16 +12,16 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
-    <h3>Research Interests</h3>
+    <h2>Research Interests</h2>
     <ul>
-      <li>Political Representation</li>
-      <li>(Mis)Perceived Polarization</li>
-      <li>Group Politics: Gender, Immigration, Age</li>
+      <li>Political Representation and Polarization</li>
+      <li>Intergroup Politics: Gender, Immigrants, Generation</li>
       <li>Economic Inequality</li>
+      <li>Politics of Face</li>
     </ul>
   </div>
   <div style="width: 48%;">
-    <h3>Education</h3>
+    <h2>Education</h2>
     <ul>
       <li>BA in English Literature, Korea University</li>
       <li>MA in Politics, Korea University</li>
