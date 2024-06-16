@@ -32,7 +32,9 @@ author_profile: true
 ## Peer-reviewed Articles (in Korean)
 
 <ol start="8" reversed>
-<li>강우창&middot;이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32</li>
-<li>강우창&middot;김지한. 2024. "사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석[Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54</li>
-
+<li>강우창&middot;이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." <a href="https://bit.ly/3xjV5DM">한국정치학회보</a>, 58(1): 7-32</li>
+<li>강우창&middot;김지한. 2024. "사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석[Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." <a href="https://bit.ly/3KK8KHm">한국정치학회보</a>, 58(1): 33-54</li>
+<li>강우창&middot;김도원&middot;강준모. 2022. "후보자의 미소와 득표율의 관계 : 제1~7회 지방선거 시군구 단체장 후보자들을 중심으로[Smile to Win : How do Candidates’ Smiles Affect Election Outcomes?]." <a href="https://bit.ly/4cmR2Fx">한국정치학회보</a>, 56(4): 59-82</li>
+<li>강우창&middot;이지영. 2022. "여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석[Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." <a href="https://bit.ly/3xmxfr4">한국정당학회보</a>, 21(1): 5-41</li>
+<li>강준모&middot;강우창. 2022. "후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험[The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." <a href="https://bit.ly/3xbq98S">한국정당학회보</a>, 56(1): 161-185</li>
 </ol>
