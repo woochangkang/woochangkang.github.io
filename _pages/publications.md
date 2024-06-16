@@ -9,7 +9,7 @@ author_profile: true
 
 * Kang, Woo Chang and Sunkyung Park. Forthcoming. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." *Social Forces* 
 * Kang, Woo Chang and BK Song. Forthcoming. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." *Political Behavior* 
-* Chang, Hanil and Woo Chang Kang. Forthcoming, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" *Social Science Journal*, 
+* Chang, Hanil and Woo Chang Kang. Forthcoming, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" *Social Science Journal*
 * Kang, Woo Chang and SK Park, "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." *Cities*, 2023, Vol 134. 
 * Kang, Woo Chang and Jill Sheppard, Feodor Snagovsky and Nicholas Biddle. 2021. "Candidate Sex, Partisanship and Electoral Context in Australia." *Electoral Studies*, 2021, 70:102273 
 * Snagovsky, Feodor, Woo Chang Kang Jill Sheppard and Nicholas Biddle. 2020. "The Impact of Descriptive Representation on External Efficacy in Australia." *Australian Journal of Political Science*, 2020, 55(4): 378-398
@@ -22,7 +22,7 @@ author_profile: true
 * Kang, Woo Chang, Won-ho Park and BK Song. 2018. "The Effect of Incumbency in National and Local Elections: Evidence from South Korea." *Electoral Studies*, 2018, 56: 47-60 
 * Kang, Woo Chang. 2018. "Presidential Pork Barrel Politics with Polarized Voters." *Political Geography*, 2018, 67: 12-22
 * Horiuchi, Yusaku and Woo Chang Kang. 2018. "Why Should the Republicans Pray for Rain? Electoral Consequences of Rainfall Revisited." *American Politics Research*, 2018, 46(5): 869-889. 
-  - Featured in [New York Times]<https://goo.gl/pSs4Z6> 
+  - Featured in <span style="display:none;">[New York Times](https://goo.gl/pSs4Z6)</span>
 * Chang, Han Il and Woo Chang Kang. 2018. "Trust, Economic Development and Attitudes toward Immigration." *Canadian Journal of Political Science*, 2018, 51(2): 357-378
 * Kang, Woo Chang and Jean Hong. 2017. "Unexplored Consequences of Violence against Civilians during the Korean War." *Journal of East Asian Studies*, 2017, 17(3): 259-283 
 * Hong, Ji Yeon and Woo Chang Kang. 2017. "Trauma and Stigma: the Long-term Effects of Wartime Violence on Political Attitudes." *Conflict Management and Peace Science*, 2017, 34(3): 264-286
