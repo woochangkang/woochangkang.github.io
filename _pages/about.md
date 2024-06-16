@@ -12,5 +12,19 @@ My name is Woo Chang Kang and I am an associate professor in the Department of P
 My research interests are in political behavior and quantitative political analysis, with particular attention to Korea and the United States.
 
 
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%;">
+    ### Column 1
 
+    - Research Interests
+    - Item 2
+    - Item 3
+  </div>
+  <div style="width: 48%;">
+    ### Column 2
 
+    - Item A
+    - Item B
+    - Item C
+  </div>
+</div>
