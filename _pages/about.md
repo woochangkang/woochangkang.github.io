@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! My name is Woo Chang Kang and I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University in 2015 and lecturer at the Australian National University. 
+Welcome! My name is Woo Chang Kang and I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. 
 
 
 <div style="display: flex; justify-content: space-between;">
