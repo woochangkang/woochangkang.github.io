@@ -14,17 +14,20 @@ My research interests are in political behavior and quantitative political analy
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
-    ### Column 1
-
-    - Research Interests
-    - Item 2
-    - Item 3
+    <h3>Research Interests</h3>
+    <ul>
+      <li>Political Representation</li>
+      <li>(Mis)Perceived Polarization</li>
+      <li>Group Politics: Gender, Immigration, Age</li>
+      <li>Economic Inequality</li>
+    </ul>
   </div>
   <div style="width: 48%;">
-    ### Column 2
-
-    - Item A
-    - Item B
-    - Item C
+    <h3>Education</h3>
+    <ul>
+      <li>BA: English Literature, Korea University</li>
+      <li>MA: Politics, Korea University</li>
+      <li>PhD: Politics, New York University C</li>
+    </ul>
   </div>
 </div>
