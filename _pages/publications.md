@@ -5,29 +5,29 @@ permalink: /research/
 author_profile: true
 ---
 
-## Peer-reviewed Articles (in English)
-
-* Kang, Woo Chang and Sunkyung Park. Forthcoming. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." *Social Forces* 
-* Kang, Woo Chang and BK Song. Forthcoming. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." *Political Behavior* 
-* Chang, Hanil and Woo Chang Kang. Forthcoming, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" *Social Science Journal*
-* Kang, Woo Chang and SK Park. 2023. "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." *Cities*, Vol 134. 
-* Kang, Woo Chang and Jill Sheppard, Feodor Snagovsky and Nicholas Biddle. 2021. "Candidate Sex, Partisanship and Electoral Context in Australia." *Electoral Studies*, 70:102273 
-* Snagovsky, Feodor, Woo Chang Kang Jill Sheppard and Nicholas Biddle. 2020. "The Impact of Descriptive Representation on External Efficacy in Australia." *Australian Journal of Political Science*, 55(4): 378-398
-* Kang, Woo Chang and Emily Look. 2020. "Inequality and Attitudes toward Immigration: the Native-Immigrant Gap." *Australian Journal of Political Science*, 55(3): 257-275 
-* Chang, Han Il and Woo Chang Kang. 2020. "We or They? A Summit, Accents and South Korean Stereotypes toward North Koreans." *International Journal of Intercultural Relations*, 79:13-23 
-* Kang, Woo Chang, Jae Seung Lee and BK Song. 2020. "Envy and Pride: How Economic Inequality Deepens Happiness Inequality in South Korea," *Social Indicators Research*, 150: 617-637
-* Kang, Woo Chang. 2019. "The Liberals Should Pray for Rain: Weather, Opportunity Costs of Voting and Electoral Outcomes in South Korea." *Political Science*, 71(1): 61-78
-* Kang, Woo Chang and Han Wool Jeong. 2018. "The Corruption Scandal and Voter Realignments in the 19th Presidential Election in South Korea." *Korea Journal*, 59(1): 79-105
-* Han Il Chang and Woo Chang Kang. 2018. "Why do the Poor Oppose Income Redistribution? An Empirical Test on the Impacts of Nationalism and Fatalism." *Social Science Journal*, 55(4): 422-431 
-* Kang, Woo Chang, Won-ho Park and BK Song. 2018. "The Effect of Incumbency in National and Local Elections: Evidence from South Korea." *Electoral Studies*, 56: 47-60 
-* Kang, Woo Chang. 2018. "Presidential Pork Barrel Politics with Polarized Voters." *Political Geography*, 67: 12-22
-* Horiuchi, Yusaku and Woo Chang Kang. 2018. "Why Should the Republicans Pray for Rain? Electoral Consequences of Rainfall Revisited." *American Politics Research*, 46(5): 869-889. 
-  - Featured in [New York Times](https://goo.gl/pSs4Z6)
-* Chang, Han Il and Woo Chang Kang. 2018. "Trust, Economic Development and Attitudes toward Immigration." *Canadian Journal of Political Science*, 51(2): 357-378
-* Kang, Woo Chang and Jean Hong. 2017. "Unexplored Consequences of Violence against Civilians during the Korean War." *Journal of East Asian Studies*, 17(3): 259-283 
-* Hong, Ji Yeon and Woo Chang Kang. 2017. "Trauma and Stigma: the Long-term Effects of Wartime Violence on Political Attitudes." *Conflict Management and Peace Science*, 34(3): 264-286
-* Kang, Woo Chang. 2016. "Local Economic Voting and Residence-Based Regionalism in South Korea: Evidence from the 2007 Presidential Election." *Journal of East Asian Studies*, 16(3): 349-369
-* Kang, Woo Chang. 2015. "Electoral Cycles in Pork Barrel Politics: Evidence from South Korea 1989-2008." *Electoral Studies*, 2015, 38: 46-58
+## Peer-reviewed Articles (in Korean)
+<ol start="20" reversed>
+  <li>Kang, Woo Chang and Sunkyung Park. Forthcoming. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." *Social Forces*</li>
+  <li>Kang, Woo Chang and BK Song. Forthcoming. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." *Political Behavior*</li>
+  <li>Chang, Hanil and Woo Chang Kang. Forthcoming, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" *Social Science Journal*</li>
+  <li>Kang, Woo Chang and SK Park. 2023. "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." *Cities*, Vol 134.</li>
+  <li>Kang, Woo Chang and Jill Sheppard, Feodor Snagovsky and Nicholas Biddle. 2021. "Candidate Sex, Partisanship and Electoral Context in Australia." *Electoral Studies*, 70:102273</li>
+  <li>Snagovsky, Feodor, Woo Chang Kang Jill Sheppard and Nicholas Biddle. 2020. "The Impact of Descriptive Representation on External Efficacy in Australia." *Australian Journal of Political Science*, 55(4): 378-398</li>
+  <li>Kang, Woo Chang and Emily Look. 2020. "Inequality and Attitudes toward Immigration: the Native-Immigrant Gap." *Australian Journal of Political Science*, 55(3): 257-275</li>
+  <li>Chang, Han Il and Woo Chang Kang. 2020. "We or They? A Summit, Accents and South Korean Stereotypes toward North Koreans." *International Journal of Intercultural Relations*, 79:13-23</li>
+  <li>Kang, Woo Chang, Jae Seung Lee and BK Song. 2020. "Envy and Pride: How Economic Inequality Deepens Happiness Inequality in South Korea," *Social Indicators Research*, 150: 617-637</li>
+  <li>Kang, Woo Chang. 2019. "The Liberals Should Pray for Rain: Weather, Opportunity Costs of Voting and Electoral Outcomes in South Korea." *Political Science*, 71(1): 61-78</li>
+  <li>Kang, Woo Chang and Han Wool Jeong. 2018. "The Corruption Scandal and Voter Realignments in the 19th Presidential Election in South Korea." *Korea Journal*, 59(1): 79-105</li>
+  <li>Han Il Chang and Woo Chang Kang. 2018. "Why do the Poor Oppose Income Redistribution? An Empirical Test on the Impacts of Nationalism and Fatalism." *Social Science Journal*, 55(4): 422-431</li>
+  <li>Kang, Woo Chang, Won-ho Park and BK Song. 2018. "The Effect of Incumbency in National and Local Elections: Evidence from South Korea." *Electoral Studies*, 56: 47-60</li>
+  <li>Kang, Woo Chang. 2018. "Presidential Pork Barrel Politics with Polarized Voters." *Political Geography*, 67: 12-22</li>
+  <li>Horiuchi, Yusaku and Woo Chang Kang. 2018. "Why Should the Republicans Pray for Rain? Electoral Consequences of Rainfall Revisited." *American Politics Research*, 46(5): 869-889. <br> - Featured in <a href="https://goo.gl/pSs4Z6" style="display:none;">New York Times</a></li>
+  <li>Chang, Han Il and Woo Chang Kang. 2018. "Trust, Economic Development and Attitudes toward Immigration." *Canadian Journal of Political Science*, 51(2): 357-378</li>
+  <li>Kang, Woo Chang and Jean Hong. 2017. "Unexplored Consequences of Violence against Civilians during the Korean War." *Journal of East Asian Studies*, 17(3): 259-283</li>
+  <li>Hong, Ji Yeon and Woo Chang Kang. 2017. "Trauma and Stigma: the Long-term Effects of Wartime Violence on Political Attitudes." *Conflict Management and Peace Science*, 34(3): 264-286</li>
+  <li>Kang, Woo Chang. 2016. "Local Economic Voting and Residence-Based Regionalism in South Korea: Evidence from the 2007 Presidential Election." *Journal of East Asian Studies*, 16(3): 349-369</li>
+  <li>Kang, Woo Chang. 2015. "Electoral Cycles in Pork Barrel Politics: Evidence from South Korea 1989-2008." *Electoral Studies*, 2015, 38: 46-58</li>
+</ol>
 
 ## Peer-reviewed Articles (in Korean)
 * 강우창\(\cdots\)이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32
