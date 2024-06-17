@@ -35,36 +35,46 @@ author_profile: true
 <li>강우창&middot;이준호. 2024. <a href = "https://bit.ly/3xjV5DM">"오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a>[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
-    <p>
+    <p style="margin-left: 20px;">
       Despite concerns about the increasing affective polarization among Korean voters, there has been a lack of empirical evidence to support this claim. This study examines whether affective polarization as a 'process' is occurring among Korean voters, exploiting voter opinion polls from six National Assembly elections conducted since 2000. The analysis at both the aggregate and individual levels failed to find evidence that affective polarization is intensifying in Korea. At the aggregate level, both the partisan based polarization index and the Wagner polarization index which includes non-partisans, peaked in 2004, followed by a decreasing trend until 2016. There was an increase in emotional polarization between 2016 and 2020, but further analysis in 2022 revealed that this increase is not continuing. At the individual level, we reconfirmed the significant correlation between affective polarization and factors like strong partisan identity, ideological intensity, and perceptions of ideological polarization within parties; however, this study did not find evidence that these variables are exacerbating affective polarization.
     </p>
   </details>
-<li>강우창&middot;김지한. 2024. "<a href = "https://bit.ly/3xjV5DM">사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석)</a> [Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54</li>
+<li>강우창&middot;김지한. 2024. "<a href = "https://bit.ly/3KK8KHm">사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석)</a> [Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54<a href = "https://bit.ly/3KK8KHm" style="color: crimson;">[Link to Paper]</a></li>
 <details>
-    <summary style="margin-top: 0; margin-bottom: 10px;">Abstract in English</summary>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
       Despite the widespread interest in the effects of weather on elections and the effects of the early voting system, how the early voting system affects the election-day weather effects remains as lacuna. This paper argues that the system mitigates the effects of election-day weather on election, by providing voters with the opportunity to avoid the weather-related costs of voting. An analysis of election-day precipitation and temperature data at the regional level and 18th-21st Korean legislative election results corroborates empirical evidence. The results show that election-day rain increased the vote share of liberal parties and decreased that of conservative parties when the early voting was not available, whereas these effects disappeared as the early voting system was introduced. Relatedly, the election-day rain increased the turnout of those aged 20-24 and decreased turnout of those over 50, whereas these effects vanished with the early voting system. The findings suggest that voters who are sensitive to the direct costs and opportunity costs of voting are taking advantage of the system, based on their anticipation of election-day weather.
     </p>
   </details>
-<li>강우창&middot;김도원&middot;강준모. 2022. "<a href = "https://bit.ly/3xjV5DM">후보자의 미소와 득표율의 관계 : 제1~7회 지방선거 시군구 단체장 후보자들을 중심으로</a> [Smile to Win : How do Candidates’ Smiles Affect Election Outcomes?]." 한국정치학회보, 56(4): 59-82</li>
+<li>강우창&middot;김도원&middot;강준모. 2022. "<a href = "https://bit.ly/4cmR2Fx">후보자의 미소와 득표율의 관계 : 제1~7회 지방선거 시군구 단체장 후보자들을 중심으로</a> [Smile to Win : How do Candidates’ Smiles Affect Election Outcomes?]." 한국정치학회보, 56(4): 59-82 <a href = "https://bit.ly/4cmR2Fx" style="color: crimson;">[Link to Paper]</a></li>
 <details>
-    <summary style="margin-top: 0; margin-bottom: 10px;">Abstract in English</summary>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
       How do candidates’ appearance affect election outcomes? Under bounded rationality, voters use a variety of heuristics in their political decision-making. Previous studies have found mixed evidence on whether candidates' appearances, particularly their smiles, serve as heuristics and influence election outcomes. In this regard, this study investigates the effect of smiles on vote shares using election posters of candidates running in South Korean local elections. The candidate's smile, as measured by Microsoft Azure, increased the vote share by 1.5 to 2.6%p. The size and statistical significance of the smile effect varied depending on the electoral competitiveness and number of candidates. Overall, this study shows that candidates' smiles help them win votes in specific electoral contexts.
     </p>
   </details>
-<li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a> [Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41</li>
+<li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a> [Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41<a href = "https://bit.ly/3xmxfr4" style="color: crimson;">[Link to Paper]</a></li>
 <details>
-    <summary style="margin-top: 0; margin-bottom: 10px;">Abstract in English</summary>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
       Underrepresentation of women in politics is a widely recognized problem in Korea, yet empirical studies on the effect of women’s descriptive representation on female political participation are nonexistent. This research analyzes the effect of the number of female candidates and electees during the 2nd~7th Korean local elections on female turnout, revealing that female turnout increased when more female candidates ran for office and more female candidates were elected in the previous election. According to an analysis based on age, the effect of increased female representation on female turnout is most profound amongst female voters in their late 20s to 40s but not as substantial for women in their early 20s or 50s and beyond. Based on results by elections, increased female turnout due to greater representation initially appeared in the 5th election, when mandatory gender quota laws were implemented. Moreover, the effect of the number of elected females on female turnout is larger than that of the number of female candidates. These results show that an increase in female candidates and electees can lead to an increase in women’s political participation.
     </p>
   </details>
-<li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a> [The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185</li>
+<li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a> [The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185<a href = "https://bit.ly/3xbq98S" style="color: crimson;">[Link to Paper]</a></li>
 <details>
-    <summary style="margin-top: 0; margin-bottom: 10px;">Abstract in English</summary>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
       How does the candidate's sex affect voters' choice? Previous studies in South Korea have shown that the candidate's sex does not affect voters' choice. However, the analysis of the observational data such as aggregated election outcomes or survey data is limited in examining the causal effect of a candidate's sex on voters' choice. The effect of candidate sex may be offset from each other when voters engage in the cosex voting, where male voters vote for male candidates and female voters vote for female candidates. The survey data analysis, on the other hand, suffers from the selection issue given that only a small number of qualified female candidates run for elections. In this sense, this study examines the causal effect of the candidate's sex on voters' choices through a conjoint experiment. The results suggest that cosex voting occurs among college students, which continued even after reflecting on the effects of political parties.
     </p>
   </details>
+
+<li>서준우&middot;강우창. 2021. "<a href="https://bit.ly/4esLues">이주민 증가에 따른 이민자에 대한 인식 변화 : 경제적 불평등과의 상호작용을 중심으로</a> [Understanding Public Attitudes toward Immigrants : the Heterogeneous Effect of Contact Conditional on Local Inequality]." 한국정치학회보, 55(2): 33-53<a href = "https://bit.ly/4esLues" style="color: crimson;">[Link to Paper]</a></li>
+<details>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
+    <p style="margin-left: 20px;">
+      The immigration level in Korea has been increasing amidst worsening individual attitudes toward immigrants. Does this mean that the increase in immigration levels leads to a negative public attitude toward immigrants? Intergroup Contact Theory supposes that a larger migrant population leads to positive attitudes: frequent contact alleviates intergroup prejudice and improves relations. This paper suggests that there can be both 'good contact' or 'bad contact' depending on local contextual characteristics, such as inequality. This paper reviews the effect of local economic inequality and local immigrant stock on public attitudes by matching the Seoul Survey dataset(2010-2017) with originally generated local economic inequality levels. With a multi-level time-series data of twenty-five local level districts, six-year spans, and 274,514 individual observations, we find that local districts with larger immigrant populations and lower inequality levels are more likely to exhibit positive attitudes, and the positive effect of the immigrant population on public attitudes diminishes as the inequality level increases. These findings suggest that the deteriorating net level of public attitudes toward immigrants is attributable to economic inequality rather than the size of the immigrant population.
+    </p>
+  </details>
+
+
   </ol>
