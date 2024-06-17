@@ -32,12 +32,15 @@ author_profile: true
 ## Peer-reviewed Articles (in Korean)
 
 <ol start="8" reversed>
-<li>강우창&middot;이준호. 2024. "<a href = "https://bit.ly/3xjV5DM">오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a>[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32</li>
-<li>강우창&middot;김지한. 2024. "<a href = "https://bit.ly/3xjV5DM">사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석)</a>[Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54</li>
-<li>강우창&middot;김도원&middot;강준모. 2022. "<a href = "https://bit.ly/3xjV5DM">후보자의 미소와 득표율의 관계 : 제1~7회 지방선거 시군구 단체장 후보자들을 중심으로</a>[Smile to Win : How do Candidates’ Smiles Affect Election Outcomes?]." 한국정치학회보, 56(4): 59-82</li>
-<li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a>[Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41</li>
-<p>
-    여성의 과소대표 문제를 해결해야 한다는 공감대에도 불구하고, 여성의 기술적 대표성이 여성의 정치참여에 미치는 영향에 대한 경험 연구는 전무하다. 본 논문은 제2~7회 지방선거 당시 단체장 선거, 광역의회 및 기초의회 지역구 선거에 출마한 여성 후보자와 여성 당선자의 수를 합하여 시군구 수준에서 여성의 기술적 대표성을 측정한 후 여성 투표율에 미치는 영향력을 분석했다. 주요 분석 결과는 다음과 같다. 첫째, 선거에 출마한 여성 후보자의 수와 이전 선거 여성 당선자의 수가 많을수록 여성의 투표율은 증가했다. 둘째, 연령별로 분석한 결과 기술적 대표성으로 인한 투표율의 증가는 20대 후반부터 40대까지 두드러졌으며, 20대 초반과 50대 이상 여성에서는 그 영향력이 제한적이었다. 셋째, 선거 시기별로 분석한 결과 기술적 대표성의 효과는 여성의무공천 강제규정이 적용되기 시작했던 2010년 제5회 선거 이후부터 나타나기 시작했으며, 또한 최근 선거의 경우 여성 후보자의 수보다 여성 당선자의 수가 투표율 증가에 더 큰 영향을 미치는 것으로 나타났다.
-  </p>
-<li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a>[The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185</li>
+<li>강우창&middot;이준호. 2024. "<a href = "https://bit.ly/3xjV5DM">오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a> [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32</li>
+<li>강우창&middot;김지한. 2024. "<a href = "https://bit.ly/3xjV5DM">사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석)</a> [Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54</li>
+<li>강우창&middot;김도원&middot;강준모. 2022. "<a href = "https://bit.ly/3xjV5DM">후보자의 미소와 득표율의 관계 : 제1~7회 지방선거 시군구 단체장 후보자들을 중심으로</a> [Smile to Win : How do Candidates’ Smiles Affect Election Outcomes?]." 한국정치학회보, 56(4): 59-82</li>
+<li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a> [Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41</li>
+<details>
+    <summary>초록 보기</summary>
+    <p>
+      여성의 과소대표 문제를 해결해야 한다는 공감대에도 불구하고, 여성의 기술적 대표성이 여성의 정치참여에 미치는 영향에 대한 경험 연구는 전무하다. 본 논문은 제2~7회 지방선거 당시 단체장 선거, 광역의회 및 기초의회 지역구 선거에 출마한 여성 후보자와 여성 당선자의 수를 합하여 시군구 수준에서 여성의 기술적 대표성을 측정한 후 여성 투표율에 미치는 영향력을 분석했다. 주요 분석 결과는 다음과 같다. 첫째, 선거에 출마한 여성 후보자의 수와 이전 선거 여성 당선자의 수가 많을수록 여성의 투표율은 증가했다. 둘째, 연령별로 분석한 결과 기술적 대표성으로 인한 투표율의 증가는 20대 후반부터 40대까지 두드러졌으며, 20대 초반과 50대 이상 여성에서는 그 영향력이 제한적이었다. 셋째, 선거 시기별로 분석한 결과 기술적 대표성의 효과는 여성의무공천 강제규정이 적용되기 시작했던 2010년 제5회 선거 이후부터 나타나기 시작했으며, 또한 최근 선거의 경우 여성 후보자의 수보다 여성 당선자의 수가 투표율 증가에 더 큰 영향을 미치는 것으로 나타났다.
+    </p>
+  </details>
+<li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a> [The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185</li>
 </ol>
