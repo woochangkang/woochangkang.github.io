@@ -53,14 +53,15 @@ author_profile: true
       How do candidates’ appearance affect election outcomes? Under bounded rationality, voters use a variety of heuristics in their political decision-making. Previous studies have found mixed evidence on whether candidates' appearances, particularly their smiles, serve as heuristics and influence election outcomes. In this regard, this study investigates the effect of smiles on vote shares using election posters of candidates running in South Korean local elections. The candidate's smile, as measured by Microsoft Azure, increased the vote share by 1.5 to 2.6%p. The size and statistical significance of the smile effect varied depending on the electoral competitiveness and number of candidates. Overall, this study shows that candidates' smiles help them win votes in specific electoral contexts.
     </p>
   </details>
-<li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a> [Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41<a href = "https://bit.ly/3xmxfr4" style="color: crimson;">[Link to Paper]</a></li>
+<li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a> [Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41</li>
+<a href = "https://bit.ly/3xmxfr4" style="color: crimson;">[Link to Paper]</a> 
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
       Underrepresentation of women in politics is a widely recognized problem in Korea, yet empirical studies on the effect of women’s descriptive representation on female political participation are nonexistent. This research analyzes the effect of the number of female candidates and electees during the 2nd~7th Korean local elections on female turnout, revealing that female turnout increased when more female candidates ran for office and more female candidates were elected in the previous election. According to an analysis based on age, the effect of increased female representation on female turnout is most profound amongst female voters in their late 20s to 40s but not as substantial for women in their early 20s or 50s and beyond. Based on results by elections, increased female turnout due to greater representation initially appeared in the 5th election, when mandatory gender quota laws were implemented. Moreover, the effect of the number of elected females on female turnout is larger than that of the number of female candidates. These results show that an increase in female candidates and electees can lead to an increase in women’s political participation.
     </p>
   </details>
-<li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a> [The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185<a href = "https://bit.ly/3xbq98S" style="color: crimson;">[Link to Paper]</a></li>
+<li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a> [The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185 <a href = "https://bit.ly/3xbq98S" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
@@ -68,10 +69,10 @@ author_profile: true
     </p>
   </details>
 
-<li>서준우&middot;강우창. 2021. "<a href="https://bit.ly/4esLues">이주민 증가에 따른 이민자에 대한 인식 변화 : 경제적 불평등과의 상호작용을 중심으로</a> [Understanding Public Attitudes toward Immigrants : the Heterogeneous Effect of Contact Conditional on Local Inequality]." 한국정치학회보, 55(2): 33-53<a href = "https://bit.ly/4esLues" style="color: crimson;">[Link to Paper]</a></li>
+<li>서준우&middot;강우창. 2021. "<a href="https://bit.ly/4esLues">이주민 증가에 따른 이민자에 대한 인식 변화 : 경제적 불평등과의 상호작용을 중심으로</a> [Understanding Public Attitudes toward Immigrants : the Heterogeneous Effect of Contact Conditional on Local Inequality]." 한국정치학회보, 55(2): 33-53 <a href = "https://bit.ly/4esLues" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
-    <p style="margin-left: 20px;">
+    <p style="margin-left: 20px;margin-top: -20px">
       The immigration level in Korea has been increasing amidst worsening individual attitudes toward immigrants. Does this mean that the increase in immigration levels leads to a negative public attitude toward immigrants? Intergroup Contact Theory supposes that a larger migrant population leads to positive attitudes: frequent contact alleviates intergroup prejudice and improves relations. This paper suggests that there can be both 'good contact' or 'bad contact' depending on local contextual characteristics, such as inequality. This paper reviews the effect of local economic inequality and local immigrant stock on public attitudes by matching the Seoul Survey dataset(2010-2017) with originally generated local economic inequality levels. With a multi-level time-series data of twenty-five local level districts, six-year spans, and 274,514 individual observations, we find that local districts with larger immigrant populations and lower inequality levels are more likely to exhibit positive attitudes, and the positive effect of the immigrant population on public attitudes diminishes as the inequality level increases. These findings suggest that the deteriorating net level of public attitudes toward immigrants is attributable to economic inequality rather than the size of the immigrant population.
     </p>
   </details>
