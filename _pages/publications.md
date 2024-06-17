@@ -32,9 +32,9 @@ author_profile: true
 ## Peer-reviewed Articles (in Korean)
 
 <ol start="8" reversed>
-<li>강우창&middot;이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년) [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
+<li>강우창&middot;이준호. 2024. <a href = "https://bit.ly/3xjV5DM">"오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a>[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
 <details>
-    <summary style="margin-top: 0; margin-bottom: 10px;">Abstract in English</summary>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p>
       Despite concerns about the increasing affective polarization among Korean voters, there has been a lack of empirical evidence to support this claim. This study examines whether affective polarization as a 'process' is occurring among Korean voters, exploiting voter opinion polls from six National Assembly elections conducted since 2000. The analysis at both the aggregate and individual levels failed to find evidence that affective polarization is intensifying in Korea. At the aggregate level, both the partisan based polarization index and the Wagner polarization index which includes non-partisans, peaked in 2004, followed by a decreasing trend until 2016. There was an increase in emotional polarization between 2016 and 2020, but further analysis in 2022 revealed that this increase is not continuing. At the individual level, we reconfirmed the significant correlation between affective polarization and factors like strong partisan identity, ideological intensity, and perceptions of ideological polarization within parties; however, this study did not find evidence that these variables are exacerbating affective polarization.
     </p>
