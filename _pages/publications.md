@@ -32,15 +32,39 @@ author_profile: true
 ## Peer-reviewed Articles (in Korean)
 
 <ol start="8" reversed>
-<li>강우창&middot;이준호. 2024. "<a href = "https://bit.ly/3xjV5DM">오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a> [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32</li>
+<li>강우창&middot;이준호. 2024. "오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년) [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
+<details>
+    <summary>Abstract in English</summary>
+    <p>
+      Despite concerns about the increasing affective polarization among Korean voters, there has been a lack of empirical evidence to support this claim. This study examines whether affective polarization as a 'process' is occurring among Korean voters, exploiting voter opinion polls from six National Assembly elections conducted since 2000. The analysis at both the aggregate and individual levels failed to find evidence that affective polarization is intensifying in Korea. At the aggregate level, both the partisan based polarization index and the Wagner polarization index which includes non-partisans, peaked in 2004, followed by a decreasing trend until 2016. There was an increase in emotional polarization between 2016 and 2020, but further analysis in 2022 revealed that this increase is not continuing. At the individual level, we reconfirmed the significant correlation between affective polarization and factors like strong partisan identity, ideological intensity, and perceptions of ideological polarization within parties; however, this study did not find evidence that these variables are exacerbating affective polarization.
+    </p>
+  </details>
 <li>강우창&middot;김지한. 2024. "<a href = "https://bit.ly/3xjV5DM">사전투표제 도입과 선거 당일 날씨 효과: 제18~21대 국회의원 선거 비례대표 투표율과 정당득표율 분석)</a> [Early Voting and Election-Day Weather Effects: An Analysis of the 18th~21st National Assembly Elections]." 한국정치학회보, 58(1): 33-54</li>
+<details>
+    <summary>Abstract in English</summary>
+    <p>
+      Despite the widespread interest in the effects of weather on elections and the effects of the early voting system, how the early voting system affects the election-day weather effects remains as lacuna. This paper argues that the system mitigates the effects of election-day weather on election, by providing voters with the opportunity to avoid the weather-related costs of voting. An analysis of election-day precipitation and temperature data at the regional level and 18th-21st Korean legislative election results corroborates empirical evidence. The results show that election-day rain increased the vote share of liberal parties and decreased that of conservative parties when the early voting was not available, whereas these effects disappeared as the early voting system was introduced. Relatedly, the election-day rain increased the turnout of those aged 20-24 and decreased turnout of those over 50, whereas these effects vanished with the early voting system. The findings suggest that voters who are sensitive to the direct costs and opportunity costs of voting are taking advantage of the system, based on their anticipation of election-day weather.
+    </p>
+  </details>
 <li>강우창&middot;김도원&middot;강준모. 2022. "<a href = "https://bit.ly/3xjV5DM">후보자의 미소와 득표율의 관계 : 제1~7회 지방선거 시군구 단체장 후보자들을 중심으로</a> [Smile to Win : How do Candidates’ Smiles Affect Election Outcomes?]." 한국정치학회보, 56(4): 59-82</li>
+<details>
+    <summary>Abstract in English</summary>
+    <p>
+      How do candidates’ appearance affect election outcomes? Under bounded rationality, voters use a variety of heuristics in their political decision-making. Previous studies have found mixed evidence on whether candidates' appearances, particularly their smiles, serve as heuristics and influence election outcomes. In this regard, this study investigates the effect of smiles on vote shares using election posters of candidates running in South Korean local elections. The candidate's smile, as measured by Microsoft Azure, increased the vote share by 1.5 to 2.6%p. The size and statistical significance of the smile effect varied depending on the electoral competitiveness and number of candidates. Overall, this study shows that candidates' smiles help them win votes in specific electoral contexts.
+    </p>
+  </details>
 <li>강우창&middot;이지영. 2022. "<a href="https://bit.ly/3xmxfr4">여성의 기술적 대표성과 여성 정치참여: 제2~7회 지방선거 여성 투표율 분석</a> [Women’s Descriptive Representation and Political Participation: An Analysis of Korean Local Elections]." 한국정당학회보, 21(1): 5-41</li>
 <details>
-    <summary>초록 보기</summary>
+    <summary>Abstract in English</summary>
     <p>
-      여성의 과소대표 문제를 해결해야 한다는 공감대에도 불구하고, 여성의 기술적 대표성이 여성의 정치참여에 미치는 영향에 대한 경험 연구는 전무하다. 본 논문은 제2~7회 지방선거 당시 단체장 선거, 광역의회 및 기초의회 지역구 선거에 출마한 여성 후보자와 여성 당선자의 수를 합하여 시군구 수준에서 여성의 기술적 대표성을 측정한 후 여성 투표율에 미치는 영향력을 분석했다. 주요 분석 결과는 다음과 같다. 첫째, 선거에 출마한 여성 후보자의 수와 이전 선거 여성 당선자의 수가 많을수록 여성의 투표율은 증가했다. 둘째, 연령별로 분석한 결과 기술적 대표성으로 인한 투표율의 증가는 20대 후반부터 40대까지 두드러졌으며, 20대 초반과 50대 이상 여성에서는 그 영향력이 제한적이었다. 셋째, 선거 시기별로 분석한 결과 기술적 대표성의 효과는 여성의무공천 강제규정이 적용되기 시작했던 2010년 제5회 선거 이후부터 나타나기 시작했으며, 또한 최근 선거의 경우 여성 후보자의 수보다 여성 당선자의 수가 투표율 증가에 더 큰 영향을 미치는 것으로 나타났다.
+      Underrepresentation of women in politics is a widely recognized problem in Korea, yet empirical studies on the effect of women’s descriptive representation on female political participation are nonexistent. This research analyzes the effect of the number of female candidates and electees during the 2nd~7th Korean local elections on female turnout, revealing that female turnout increased when more female candidates ran for office and more female candidates were elected in the previous election. According to an analysis based on age, the effect of increased female representation on female turnout is most profound amongst female voters in their late 20s to 40s but not as substantial for women in their early 20s or 50s and beyond. Based on results by elections, increased female turnout due to greater representation initially appeared in the 5th election, when mandatory gender quota laws were implemented. Moreover, the effect of the number of elected females on female turnout is larger than that of the number of female candidates. These results show that an increase in female candidates and electees can lead to an increase in women’s political participation.
     </p>
   </details>
 <li>강준모&middot;강우창. 2022. "<a href="https://bit.ly/3xbq98S">후보자 성별이 대학생 유권자의 선택에 미치는 영향 : 컨조인트 실험</a> [The Effects of Candidate Sex on Voters’ Choice : A Conjoint Experiment with College Students in South Korea]." 한국정당학회보, 56(1): 161-185</li>
-</ol>
+<details>
+    <summary>Abstract in English</summary>
+    <p>
+      How does the candidate's sex affect voters' choice? Previous studies in South Korea have shown that the candidate's sex does not affect voters' choice. However, the analysis of the observational data such as aggregated election outcomes or survey data is limited in examining the causal effect of a candidate's sex on voters' choice. The effect of candidate sex may be offset from each other when voters engage in the cosex voting, where male voters vote for male candidates and female voters vote for female candidates. The survey data analysis, on the other hand, suffers from the selection issue given that only a small number of qualified female candidates run for elections. In this sense, this study examines the causal effect of the candidate's sex on voters' choices through a conjoint experiment. The results suggest that cosex voting occurs among college students, which continued even after reflecting on the effects of political parties.
+    </p>
+  </details>
+  </ol>
