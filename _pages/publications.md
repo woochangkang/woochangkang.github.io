@@ -9,8 +9,8 @@ author_profile: true
 <ol start="20" reversed>
   <li>Kang, Woo Chang and Sunkyung Park. Forthcoming. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." <i>Social Forces</i></li>
   <li>Kang, Woo Chang and BK Song. Forthcoming. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." <i>Political Behavior</i></li>
-  <li>Chang, Han Il and Woo Chang Kang. Forthcoming, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" <i>Social Science Journal</i></li>
   <li>Kang, Woo Chang and SK Park. 2023. "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." <i>Cities</i>, Vol 134.</li>
+  <li>Chang, Han Il and Woo Chang Kang. 2021, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" <i>Social Science Journal</i></li>
   <li>Kang, Woo Chang and Jill Sheppard, Feodor Snagovsky and Nicholas Biddle. 2021. "Candidate Sex, Partisanship and Electoral Context in Australia." <i>Electoral Studies</i>, 70:102273</li>
   <li>Snagovsky, Feodor, Woo Chang Kang Jill Sheppard and Nicholas Biddle. 2020. "The Impact of Descriptive Representation on External Efficacy in Australia." <i>Australian Journal of Political Science</i>, 55(4): 378-398</li>
   <li>Kang, Woo Chang and Emily Look. 2020. "Inequality and Attitudes toward Immigration: the Native-Immigrant Gap." <i>Australian Journal of Political Science</i>, 55(3): 257-275</li>
