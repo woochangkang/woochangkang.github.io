@@ -30,9 +30,9 @@ author_profile: true
 </ol>
 
 ## Peer-reviewed Articles (in Korean)
-
+--- 
 <ol start="8" reversed>
-<li>강우창&middot;이준호. 2024. <a href = "https://bit.ly/3xjV5DM">"오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a>[Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
+<li>강우창&middot;이준호. 2024. <a href = "https://bit.ly/3xjV5DM">"오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a> [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p style="margin-left: 20px;margin-top: -10px">
@@ -90,3 +90,12 @@ author_profile: true
     </p>
   </details>
   </ol>
+
+## Works on Progress 
+<li>Song, BK and Woo Chang Kang. "Inequality, Local Wealth, and Electoral Politics"</li>
+<li>Kang, Woo Chang and Chris Dawes. "Electoral Effect of Stop and Frisk"</li>
+<li>Kang, Woo Chang and Sein Park. "Housing Prices, Rental Prices, and Perceptions about the Economy: Evidence from South Korea"</li>
+<li>Kweon, Yesola and Woo Chang Kang, Jong-sung You. "Revisiting Candidate Gender Effects: Heuristics, Sexism, and Information Environments"</li>
+
+
+

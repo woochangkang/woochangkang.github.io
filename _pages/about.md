@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! My name is Woo Chang Kang and I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. 
+Welcome! My name is Woo Chang Kang and I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. I am interested in understanding the causes and consequences of political, social, and economic inequalities among social groups, with a particular focus on partisanship, gender, age groups, and immigrants. My research explores the interactions between voters and political elites during political processes within representative democracy, aiming to identify ways to mitigate inequalities and enhance representation.
 
 
 <div style="display: flex; justify-content: space-between;">
