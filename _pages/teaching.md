@@ -7,8 +7,8 @@ author_profile: true
 
 
 ## Undergraduate Courses  
-- 선거와 투표행태 
-- 정치심리학
+- Election and Voting Bevavior (선거와 투표행태)
+- Political Psychology (정치심리학)
 - 미국정치론
 - 시민정치리빙랩 
 
