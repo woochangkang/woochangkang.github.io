@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Woo Chang Kang"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor, 고려대학교"
+  bio              : "Associate Professor, Department of Political Science"
   location         : "Seoul, Korea"
-  employer         : "Korea University"
+  employer         : "https://korea.ac.kr"
   uri              : # URL
   email            : "woochang_kang@korea.ac.kr" 
 
