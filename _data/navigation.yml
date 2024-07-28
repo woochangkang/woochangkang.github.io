@@ -12,4 +12,9 @@ main:
   - title: "CV"
     url: /cv/
     
+  - title: "Living Lab"
+    url: /livinglab/
+
+  - title: "Collaboration"
+    url: /collaboration/
   
