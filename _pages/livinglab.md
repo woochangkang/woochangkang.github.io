@@ -48,7 +48,7 @@ author_profile: true
                 <p>2022년 출판한 “교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나”에서는 학생들이 일상을 살아가고 있는 시민의 관점에서 문제를 발굴하고 해결책을 모색하는데 초점을 맞추었다. 시험 </p>
             </div>
             <div class="image">
-                <img src="images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나">
+                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나">
             </div>
         </div>
         <div class="two-column">
