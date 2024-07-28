@@ -4,6 +4,7 @@ title: "시민정치리빙랩 (Citizen Politics Living Lab)"
 permalink: /livinglab/
 author_profile: true
 ---
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -20,6 +21,7 @@ author_profile: true
         }
         .two-column {
             display: flex;
+            margin-bottom: 20px;
         }
         .text {
             flex: 1;
@@ -28,13 +30,11 @@ author_profile: true
         .image {
             flex: 1;
             display: flex;
-            flex-direction: column;
             align-items: center;
         }
         .image img {
             width: 100%;
             max-width: 300px;
-            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -46,10 +46,16 @@ author_profile: true
         <div class="two-column">
             <div class="text">
                 <p>2022년 출판한 “교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나”에서는 학생들이 일상을 살아가고 있는 시민의 관점에서 문제를 발굴하고 해결책을 모색하는데 초점을 맞추었다.</p>
+            </div>
+            <div class="image">
+                <img src="images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나">
+            </div>
+        </div>
+        <div class="two-column">
+            <div class="text">
                 <p>2023년 출판한 "교실 밖의 정치학2: 우리가 만든 조례“에서는 정치학에 대한 학생들의 고민과 배움을 조례를 통해 담아내고자 했다.</p>
             </div>
             <div class="image">
-                <img src="path/to/2022_book_image.jpg" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나">
                 <img src="path/to/2023_book_image.jpg" alt="교실 밖의 정치학2: 우리가 만든 조례">
             </div>
         </div>
