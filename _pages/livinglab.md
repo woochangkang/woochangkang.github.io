@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -15,19 +16,22 @@ author_profile: true
         .container {
             display: flex;
             flex-direction: column;
+            max-width: 800px;
+            margin: auto;
         }
         .single-column {
             margin-bottom: 20px;
-            max-width: 800px; /* 두 개의 two-column 합친 너비와 동일하게 설정 */
+            text-align: justify;
         }
         .two-column {
             display: flex;
+            justify-content: space-between;
             margin-bottom: 20px;
-            max-width: 800px; /* 너비 설정 */
         }
         .text {
-            flex: 1;
+            flex: 2;
             margin-right: 20px;
+            text-align: justify;
         }
         .image {
             flex: 1;
@@ -59,7 +63,7 @@ author_profile: true
         </div>
         <div class="two-column">
             <div class="text">
-                <p>2023년 출판한 "교실 밖의 정치학2: 우리가 만든 조례“에서는 정치학에 대한 학생들의 고민과 배움을 조례를 통해 담아내고자 했다. 조례는 지방자치단체가 법률에 명시된 권한에 따라 제정하는 규칙과 지침으로. 자치단체가 지역의 특성과 요구에 맞는 정책을 추진할 수 있는 제도적 기반이 된다. 정치학은 사회적 갈등의 제도적 해결을 모색하는 학문이다. 정책을 입안하고 추진하는 과정에서 발생할 수 있는 다양한 이해관계와 갈등을 조정하고, 이를 조례안으로 구체화하고, 나아가 발안에 충분한 주민의 지지를 확보하는 일련의 과정은 정치학적 사고를 필요로 한다. 따라서 조례제정은 새로운 관점에서 정치학 지식과 이론에 대해 생각해 보는 기회이다. <br>
+                <p>2023년 출판한 "교실 밖의 정치학2: 우리가 만든 조례“에서는 정치학에 대한 학생들의 고민과 배움을 조례를 통해 담아내고자 했다. 조례는 지방자치단체가 법률에 명시된 권한에 따라 제정하는 규칙과 지침으로, 자치단체가 지역의 특성과 요구에 맞는 정책을 추진할 수 있는 제도적 기반이 된다. 정치학은 사회적 갈등의 제도적 해결을 모색하는 학문이다. 정책을 입안하고 추진하는 과정에서 발생할 수 있는 다양한 이해관계와 갈등을 조정하고, 이를 조례안으로 구체화하고, 나아가 발안에 충분한 주민의 지지를 확보하는 일련의 과정은 정치학적 사고를 필요로 한다. 조례제정을 통해 새로운 관점에서 정치학 지식과 이론을 현실에 적용할 수 있는 기회를 제공하고자 했다. <br>
 
                 <a href="https://product.kyobobook.co.kr/detail/S000211775118" target="_blank">교보문고</a>
 
