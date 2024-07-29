@@ -5,8 +5,6 @@ permalink: /livinglab/
 author_profile: true
 ---
 
-
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -36,11 +34,16 @@ author_profile: true
         .image {
             flex: 1;
             display: flex;
+            flex-direction: column;
             align-items: center;
         }
         .image img {
             width: 100%;
             height: auto;
+            margin-bottom: 10px;
+        }
+        .link {
+            text-align: center;
         }
     </style>
 </head>
@@ -54,23 +57,25 @@ author_profile: true
         <div class="two-column">
             <div class="text">
                 <p>2022년 출판한 “교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나”에서는 학생들이 일상을 살아가고 있는 시민의 관점에서 문제를 발굴하고 해결책을 모색하는데 초점을 맞추었다. <br>
-
-                <a href="https://woochangkang.github.io/files/[eBook]교실밖의정치학2022.pdf" target="_blank">Download PDF</a></p>
             </div>
             <div class="image">
-                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나" style="width: 40%;">
+                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나" style="width: 50%;">
+                <div class="link">
+                    <a href="https://woochangkang.github.io/files/[eBook]교실밖의정치학2022.pdf" target="_blank">Download PDF</a>
+                </div>
             </div>
+        </div>
         </div>
         <div class="two-column">
             <div class="text">
                 <p>2023년 출판한 "교실 밖의 정치학2: 우리가 만든 조례“에서는 정치학에 대한 학생들의 고민과 배움을 조례를 통해 담아내고자 했다. 조례는 지방자치단체가 법률에 명시된 권한에 따라 제정하는 규칙과 지침으로, 자치단체가 지역의 특성과 요구에 맞는 정책을 추진할 수 있는 제도적 기반이 된다. 정치학은 사회적 갈등의 제도적 해결을 모색하는 학문이다. 정책을 입안하고 추진하는 과정에서 발생할 수 있는 다양한 이해관계와 갈등을 조정하고, 이를 조례안으로 구체화하고, 나아가 발안에 충분한 주민의 지지를 확보하는 일련의 과정은 정치학적 사고를 필요로 한다. 조례제정을 통해 새로운 관점에서 정치학 지식과 이론을 현실에 적용할 수 있는 기회를 제공하고자 했다. <br>
-
-                <a href="https://product.kyobobook.co.kr/detail/S000211775118" target="_blank">교보문고</a>
-
                  </p>
             </div>
             <div class="image">
-                <img src="/images/outside2023.png" alt="교실 밖의 정치학2: 우리가 만든 조례" style="width: 40%;">
+                <img src="/images/outside2023.png" alt="교실 밖의 정치학2: 우리가 만든 조례" style="width: 70%;">
+                <div class="link">
+                    <a href="https://product.kyobobook.co.kr/detail/S000211775118" target="_blank">교보문고</a>
+                </div>
             </div>
         </div>
     </div>
