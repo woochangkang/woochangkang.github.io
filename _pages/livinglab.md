@@ -18,10 +18,12 @@ author_profile: true
         }
         .single-column {
             margin-bottom: 20px;
+            max-width: 800px; /* 두 개의 two-column 합친 너비와 동일하게 설정 */
         }
         .two-column {
             display: flex;
             margin-bottom: 20px;
+            max-width: 800px; /* 너비 설정 */
         }
         .text {
             flex: 1;
@@ -31,6 +33,10 @@ author_profile: true
             flex: 1;
             display: flex;
             align-items: center;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -43,12 +49,12 @@ author_profile: true
         </div>
         <div class="two-column">
             <div class="text">
-                <p>2022년 출판한 “교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나”에서는 학생들이 일상을 살아가고 있는 시민의 관점에서 문제를 발굴하고 해결책을 모색하는데 초점을 맞추었다. 
+                <p>2022년 출판한 “교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나”에서는 학생들이 일상을 살아가고 있는 시민의 관점에서 문제를 발굴하고 해결책을 모색하는데 초점을 맞추었다. <br>
 
                 <a href="https://woochangkang.github.io/files/[eBook]교실밖의정치학2022.pdf" target="_blank">Download PDF</a></p>
             </div>
             <div class="image">
-                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나" style="width: 50%;">
+                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나" style="width: 40%;">
             </div>
         </div>
         <div class="two-column">
@@ -60,7 +66,7 @@ author_profile: true
                  </p>
             </div>
             <div class="image">
-                <img src="/images/outside2023.png" alt="교실 밖의 정치학2: 우리가 만든 조례" style="width: 30%;">
+                <img src="/images/outside2023.png" alt="교실 밖의 정치학2: 우리가 만든 조례" style="width: 40%;">
             </div>
         </div>
     </div>
