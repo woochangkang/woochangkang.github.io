@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "시민정치리빙랩 (Citizen Politics Living Lab)"
+title: ""
 permalink: /livinglab/
 author_profile: true
 ---
@@ -10,7 +10,7 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>정치학 소개</title>
+    <title>시민정치리빙랩 (Citizen Politics Living Lab)</title>
     <style>
         body {
             margin: 0;
