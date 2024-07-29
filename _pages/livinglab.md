@@ -48,7 +48,7 @@ author_profile: true
                 <a href="https://woochangkang.github.io/files/[eBook]교실밖의정치학2022.pdf" target="_blank">Download PDF</a></p>
             </div>
             <div class="image">
-                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나" style="width: 70%;">
+                <img src="/images/outside2022.png" alt="교실 밖의 정치학: 대학생들은 어떻게 시민이 되었나" style="width: 50%;">
             </div>
         </div>
         <div class="two-column">
@@ -60,7 +60,7 @@ author_profile: true
                  </p>
             </div>
             <div class="image">
-                <img src="/images/outside2023.png" alt="교실 밖의 정치학2: 우리가 만든 조례" style="width: 70%;">
+                <img src="/images/outside2023.png" alt="교실 밖의 정치학2: 우리가 만든 조례" style="width: 30%;">
             </div>
         </div>
     </div>
