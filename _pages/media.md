@@ -27,7 +27,7 @@ author_profile: true
         .title-line a {
             margin-left: 5px;
             text-decoration: none;
-            color: blue;
+            color: crimson;
         }
     </style>
 </head>
