@@ -34,7 +34,7 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
-    <h2>Gender Politics in Korea (젠더정치연구회)</h2>
+    <h2>Gender Politics in Korea Working Group (젠더정치연구회)</h2>
     <ul>
       <li>Sunkyung Park</li>
       <li>Taegyun Kim</li>
