@@ -14,14 +14,12 @@ author_profile: true
         .title-line {
             display: flex;
             align-items: center;
-            justify-content: space-between;
             margin-bottom: 10px;
         }
-        .title-line li {
-            list-style: none;
-            font-size: 24px; /* Adjust font size as needed */
+        .title-line h2 {
+            margin: 0;
+            font-size: 24px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
         }
         .title-line a {
@@ -32,23 +30,21 @@ author_profile: true
     </style>
 </head>
 <body>
-    <ul>
-        <li class="title-line">
-            <span>벌거벗은 세계사, 2024년</span>
-            <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
-        </li>
-        <li class="title-line">
-            <span>500인의 선택, 2023년</span>
-            <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8" target="_blank">[Link to Video]</a>
-        </li>
-        <li class="title-line">
-            <span>[선거, 아는만큼보인다] 당신의 투표, 정말 합리적입니까?, 2022년</span>
-            <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">[Link to Video]</a>
-        </li>
-        <li class="title-line">
-            <span>[선거, 아는만큼보인다] 선거관리의 중요성, 2021년</span>
-            <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">[Link to Video]</a>
-        </li>
-    </ul>
+    <div class="title-line">
+        <h2>벌거벗은 세계사, 2024년</h2>
+        <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
+    </div>
+    <div class="title-line">
+        <h2>500인의 선택, 2023년</h2>
+        <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8" target="_blank">[Link to Video]</a>
+    </div>
+    <div class="title-line">
+        <h2>[선거, 아는만큼보인다] 당신의 투표, 정말 합리적입니까?, 2022년</h2>
+        <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">[Link to Video]</a>
+    </div>
+    <div class="title-line">
+        <h2>[선거, 아는만큼보인다] 선거관리의 중요성, 2021년</h2>
+        <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">[Link to Video]</a>
+    </div>
 </body>
 </html>
