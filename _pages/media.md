@@ -25,7 +25,7 @@ author_profile: true
             align-items: center;
         }
         .title-line a {
-            margin-left: 20px;
+            margin-left: 5px;
             text-decoration: none;
             color: blue;
         }
