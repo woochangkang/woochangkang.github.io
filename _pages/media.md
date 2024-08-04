@@ -41,15 +41,16 @@ author_profile: true
         <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">
             <img src="https://img.youtube.com/vi/GRUchi72B9s/0.jpg" alt="Thumbnail" class="thumbnail">
         </a>
-        <h2>벌거벗은 세계사, 2024년
-            <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
+        <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
+
+        <h2>벌거벗은 세계사, 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024    
         </h2>
     </div>
     <div class="title-line">
         <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8" target="_blank">
             <img src="https://img.youtube.com/vi/R0lxzpxRgp8/0.jpg" alt="Thumbnail" class="thumbnail">
         </a>
-        <h2>500인의 선택, 2023년
+        <h2>선거제도 공론화: 500인의 회의, 2023년
             <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8" target="_blank">[Link to Video]</a>
         </h2>
     </div>
