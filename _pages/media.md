@@ -13,62 +13,68 @@ author_profile: true
     <style>
         .title-line {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 20px;
         }
         .title-line h2 {
             margin: 0;
             font-size: 24px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
             margin-left: 10px;
+            flex: 1;
         }
         .title-line a {
             text-decoration: none;
             color: crimson;
         }
-        .thumbnail {
-            width: 240px; /* Increased width for larger thumbnails */
-            height: auto;
+        .thumbnail-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-right: 10px;
+        }
+        .thumbnail {
+            width: 300px; /* Adjust width for larger thumbnails */
+            height: auto;
             cursor: pointer; /* Indicates the image is clickable */
         }
     </style>
 </head>
 <body>
     <div class="title-line">
-        <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">
-            <img src="https://img.youtube.com/vi/GRUchi72B9s/0.jpg" alt="Thumbnail" class="thumbnail">
-        </a>
-        <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
-
-        <h2>벌거벗은 세계사, 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024    
-        </h2>
+        <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">
+                <img src="https://img.youtube.com/vi/GRUchi72B9s/0.jpg" alt="Thumbnail" class="thumbnail">
+            </a>
+            <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
+        </div>
+        <h2>[벌거벗은 세계사 EP.148] 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024</h2>
     </div>
     <div class="title-line">
-        <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8" target="_blank">
-            <img src="https://img.youtube.com/vi/R0lxzpxRgp8/0.jpg" alt="Thumbnail" class="thumbnail">
-        </a>
-        <h2>선거제도 공론화: 500인의 회의, 2023년
-            <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8" target="_blank">[Link to Video]</a>
-        </h2>
+        <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8&t=529s" target="_blank">
+                <img src="https://img.youtube.com/vi/R0lxzpxRgp8/0.jpg" alt="Thumbnail" class="thumbnail">
+            </a>
+            <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8&t=529s" target="_blank">[Link to Video]</a>
+        </div>
+        <h2>[선거제도 공론화 500인의 회의] 선거구 크기 어떻게 할까?, 2023년</h2>
     </div>
     <div class="title-line">
-        <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">
-            <img src="https://img.youtube.com/vi/Oi1SaCPstIs/0.jpg" alt="Thumbnail" class="thumbnail">
-        </a>
-        <h2>[선거, 아는만큼보인다] 당신의 투표, 정말 합리적입니까?, 2022년
+        <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">
+                <img src="https://img.youtube.com/vi/Oi1SaCPstIs/0.jpg" alt="Thumbnail" class="thumbnail">
+            </a>
             <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">[Link to Video]</a>
-        </h2>
+        </div>
+        <h2>[선거, 아는만큼보인다] 당신의 투표, 정말 합리적입니까?, 2022년</h2>
     </div>
     <div class="title-line">
-        <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">
-            <img src="https://img.youtube.com/vi/VRD3HdZjhhg/0.jpg" alt="Thumbnail" class="thumbnail">
-        </a>
-        <h2>[선거, 아는만큼보인다] 선거관리의 중요성, 2021년
+        <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">
+                <img src="https://img.youtube.com/vi/VRD3HdZjhhg/0.jpg" alt="Thumbnail" class="thumbnail">
+            </a>
             <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">[Link to Video]</a>
-        </h2>
+        </div>
+        <h2>[선거, 아는만큼보인다] 선거관리의 중요성, 2021년</h2>
     </div>
 </body>
 </html>
