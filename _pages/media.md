@@ -47,7 +47,7 @@ author_profile: true
             </a>
             <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
         </div>
-        <h2>[벌거벗은 세계사 EP.148] 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024</h2>
+        <h2>[TVN 벌거벗은 세계사 EP.148] 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024</h2>
     </div>
     <div class="title-line">
         <div class="thumbnail-container">
@@ -56,7 +56,7 @@ author_profile: true
             </a>
             <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8&t=529s" target="_blank">[Link to Video]</a>
         </div>
-        <h2>[선거제도 공론화 500인의 회의] 선거구 크기 어떻게 할까?, 2023년</h2>
+        <h2>[KBS 선거제도 공론화 500인의 회의] 선거구 크기 어떻게 할까?, 2023년</h2>
     </div>
     <div class="title-line">
         <div class="thumbnail-container">
@@ -65,7 +65,7 @@ author_profile: true
             </a>
             <a href="https://www.youtube.com/watch?v=yKLQzfedEiU&t=449s" target="_blank">[Link to Video]</a>
         </div>
-        <h2>[쿠날]선거 당일 날씨가 선거에 영향을 미칠까?, 2023년</h2>
+        <h2>[고려대학교 쿠날] 선거 당일 날씨가 선거에 영향을 미칠까?, 2023년</h2>
     </div>
     <div class="title-line">
         <div class="thumbnail-container">
