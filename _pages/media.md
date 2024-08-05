@@ -5,6 +5,7 @@ permalink: /media/
 author_profile: true
 ---
 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +44,7 @@ author_profile: true
     <div class="title-line">
         <div class="thumbnail-container">
             <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">
-                <img src="https://img.youtube.com/vi/GRUchi72B9s/0.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="https://img.youtube.com/vi/GRUchi72B9s/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
             <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
         </div>
@@ -52,7 +53,7 @@ author_profile: true
     <div class="title-line">
         <div class="thumbnail-container">
             <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8&t=529s" target="_blank">
-                <img src="https://img.youtube.com/vi/R0lxzpxRgp8/0.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="https://img.youtube.com/vi/R0lxzpxRgp8/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
             <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8&t=529s" target="_blank">[Link to Video]</a>
         </div>
@@ -61,7 +62,7 @@ author_profile: true
     <div class="title-line">
         <div class="thumbnail-container">
             <a href="https://www.youtube.com/watch?v=yKLQzfedEiU&t=449s" target="_blank">
-                <img src="https://img.youtube.com/vi/yKLQzfedEiU&t=449s/0.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="https://img.youtube.com/vi/yKLQzfedEiU/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
             <a href="https://www.youtube.com/watch?v=yKLQzfedEiU&t=449s" target="_blank">[Link to Video]</a>
         </div>
@@ -70,7 +71,7 @@ author_profile: true
     <div class="title-line">
         <div class="thumbnail-container">
             <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">
-                <img src="https://img.youtube.com/vi/Oi1SaCPstIs/0.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="https://img.youtube.com/vi/Oi1SaCPstIs/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
             <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">[Link to Video]</a>
         </div>
@@ -79,7 +80,7 @@ author_profile: true
     <div class="title-line">
         <div class="thumbnail-container">
             <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">
-                <img src="https://img.youtube.com/vi/VRD3HdZjhhg/0.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="https://img.youtube.com/vi/VRD3HdZjhhg/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
             <a href="https://www.youtube.com/watch?v=VRD3HdZjhhg" target="_blank">[Link to Video]</a>
         </div>
