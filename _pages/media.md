@@ -33,7 +33,7 @@ author_profile: true
             margin-right: 10px;
         }
         .thumbnail {
-            width: 300px; /* Adjust width for larger thumbnails */
+            width: 240px; /* Adjust width for larger thumbnails */
             height: auto;
             cursor: pointer; /* Indicates the image is clickable */
         }
@@ -57,6 +57,15 @@ author_profile: true
             <a href="https://www.youtube.com/watch?v=R0lxzpxRgp8&t=529s" target="_blank">[Link to Video]</a>
         </div>
         <h2>[선거제도 공론화 500인의 회의] 선거구 크기 어떻게 할까?, 2023년</h2>
+    </div>
+    <div class="title-line">
+        <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=yKLQzfedEiU&t=449s" target="_blank">
+                <img src="https://img.youtube.com/vi/v=yKLQzfedEiU&t=449s/0.jpg" alt="Thumbnail" class="thumbnail">
+            </a>
+            <a href="https://www.youtube.com/watch?v=yKLQzfedEiU&t=449s" target="_blank">[Link to Video]</a>
+        </div>
+        <h2>[쿠날]선거 당일 날씨가 선거에 영향을 미칠까?, 2023년</h2>
     </div>
     <div class="title-line">
         <div class="thumbnail-container">
