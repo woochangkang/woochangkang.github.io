@@ -70,7 +70,7 @@ author_profile: true
     <div class="title-line">
         <div class="thumbnail-container">
             <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">
-                <img src="https://img.youtube.com/vi/Oi1SaCPstIs/0.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="https://img.youtube.com/vi/v=Oi1SaCPstIs/0.jpg" alt="Thumbnail" class="thumbnail">
             </a>
             <a href="https://www.youtube.com/watch?v=Oi1SaCPstIs" target="_blank">[Link to Video]</a>
         </div>
