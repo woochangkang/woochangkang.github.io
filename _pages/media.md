@@ -48,7 +48,7 @@ author_profile: true
             </a>
             <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
         </div>
-        <h2>[TVN 벌거벗은 세계사 EP.148] 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024</h2>
+        <h2>[TVN 벌거벗은 세계사 EP.148] 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024년</h2>
     </div>
     <div class="title-line">
         <div class="thumbnail-container">

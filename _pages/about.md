@@ -31,7 +31,14 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
 </div>
 
 
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 100%;">
+    <h2>Gender Politics in Korea Working Group (<a href="https://genderpolitics.github.io/Website/" target="_blank">젠더정치연구회</a>)</h2>
+  </div>
+</div>
 
+
+```
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
     <h2>Gender Politics in Korea Working Group (<a href="https://genderpolitics.github.io/Website/" target="_blank">젠더정치연구회</a>)</h2>
@@ -49,3 +56,4 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
     </ul>
   </div>
 </div>
+```
