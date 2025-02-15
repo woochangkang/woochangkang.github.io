@@ -38,6 +38,13 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
 </div>
 
 
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 100%;">
+    <h2>Immigration Politics in Korea Working Group </h2>
+  </div>
+</div>
+
+
 ```
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
