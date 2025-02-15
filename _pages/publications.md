@@ -107,13 +107,13 @@ author_profile: true
   </ol>
 
 ## Works on Progress 
-<li>Song, BK and Woo Chang Kang. "Inequality, Local Wealth, and Electoral Politics"</li>
 <li>Kang, Woo Chang and Chris Dawes. "Electoral Effect of Stop and Frisk"</li>
 <li>Kang, Woo Chang and Sein Park. "Housing Prices, Rental Prices, and Perceptions about the Economy: Evidence from South Korea"</li>
 <li>Kweon, Yesola, Woo Chang Kang and Jong-sung You. "Revisiting Candidate Gender Effects: Heuristics, Sexism, and Information Environments"</li>
 <li>Kang, Woo Chang. "Politics of Face: Gender Typicality, Perceived Competence and Electoral Viability"</li>
 
 ## Grants
+<li>SSK 글로벌아젠다연구. 책임연구원. “다양성, 공존, 통합을 위한 이민정치연구.” 한국연구재단. 2024-2025</li>
 <li>신진연구자 지원사업. 책임연구원. “인공지능을 활용한 선거 후보자 이미지 연구.” 한국연구재단. 2023- 2025</li>
 <li>일반공동연구. 공동연구원. “젠더갈등 해소를 위한 통합의 정치: 선호, 과정, 제도 연구.” 한국연구재단. 2023-2026</li> 
 <li>신진연구자 지원사업. 책임연구원. “지리정보시스템을 활용한 선거당일 날씨 효과 연구.” 한국연구재단, 2020-2022</li>
