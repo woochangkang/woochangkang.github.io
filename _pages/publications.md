@@ -6,10 +6,11 @@ author_profile: true
 ---
 
 ## Peer-reviewed Articles (in English)
-<ol start="20" reversed>
-  <li>Kang, Woo Chang and Sunkyung Park. Forthcoming. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." <i>Social Forces</i></li>
-  <li>Kang, Woo Chang and BK Song. Forthcoming. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." <i>Political Behavior</i></li>
-  <li>Kang, Woo Chang and SK Park. 2023. "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." <i>Cities</i>, Vol 134.</li>
+<ol start="21" reversed>
+  <li>Song BK and Woo Chang Kang. 2025. "Inequality, Local Wealth, and Electoral Politics." <i>European Journal of Political Economy</i> Vol 89:102617</li>  
+  <li>Kang, Woo Chang and Sunkyung Park. 2024. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." <i>Social Forces</i> 103(2):475-594</li>
+  <li>Kang, Woo Chang and BK Song. 2024. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." <i>Political Behavior</i> 46:1865-1886</li>
+  <li>Kang, Woo Chang and SK Park. 2023. "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." <i>Cities</i>, Vol 134: </li>
   <li>Chang, Han Il and Woo Chang Kang. 2021, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" <i>Social Science Journal</i></li>
   <li>Kang, Woo Chang and Jill Sheppard, Feodor Snagovsky and Nicholas Biddle. 2021. "Candidate Sex, Partisanship and Electoral Context in Australia." <i>Electoral Studies</i>, 70:102273</li>
   <li>Snagovsky, Feodor, Woo Chang Kang Jill Sheppard and Nicholas Biddle. 2020. "The Impact of Descriptive Representation on External Efficacy in Australia." <i>Australian Journal of Political Science</i>, 55(4): 378-398</li>
@@ -31,7 +32,21 @@ author_profile: true
 
 ## Peer-reviewed Articles (in Korean)
 --- 
-<ol start="8" reversed>
+<ol start="10" reversed>
+<li>강우창&middot;장한일&middot;장승진. 2024. <a href = "https://bit.ly/40YKGrR">"한국 교육감선거의 순서효과에 대한 실험연구</a> [An Experimental Study on Order Effects in Education Superintendent Elections in Korea]." 한국정당학회보, 23(4): 5-33 <a href = "https://bit.ly/40YKGrR" style="color: crimson;">[Link to Paper]</a></li>
+<details>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
+    <p style="margin-left: 20px;margin-top: -10px">
+      In South Korea's Education Superintendent elections, where political parties do not nominate candidates, the order or symbol of candidates listed on the ballot can influence voters' choices, which has been a persistent issue. However, existing studies that demonstrate order effects have limitations because they rely on aggregate-level data, such as electoral districts, which do not fully address the problem of omitted variables and fail to confirm order effects at the individual level. To overcome these limitations, this study uses a survey experiment to analyze whether order effects exist in Education Superintendent elections, what form they take if they do, and which voters are most affected by them. The findings can be summarized in three main points. First, simply being listed earlier on the ballot does not necessarily increase a candidate's vote share. Second, the choice made in partisan elections held simultaneously with the Education Superintendent elections tends to favor the candidates listed in same positions. This suggests that the perceived advantage of being listed in a earlier position in Education Superintendent elections is not due to the order itself but rather because candidates from the two major parties are usually given top positions in partisan elections, influencing voting choices in Education Superintendent elections. Lastly, the impact of choices made in partisan elections on the Education Superintendent candidate choice is primarily observed among voters with low levels of political knowledge.
+    </p>
+  </details>
+<li>김지한&middot;강우창. 2024. <a href = "http://bit.ly/4hCpEGx">"지방선거와 선거 당일 날씨 효과: 사전투표제 도입 이후를 중심으로</a> [Election Day Weather Effects in Local Elections in the Period with the Early Voting System]." 현대정치연구, 17(2): 51-77 <a href = "http://bit.ly/4hCpEGx" style="color: crimson;">[Link to Paper]</a></li>
+<details>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
+    <p style="margin-left: 20px;margin-top: -10px">
+      This paper analyzes the election day weather effects in South Korean local elections. Analyzing the election day precipitation and temperature data estimated at the town level, along with the results of the 7th and 8th provincial council proportional representation elections, we found that for every 1sd (3.1mm) increase in election day precipitation, the vote share of progressive parties increases by 1.8%, while that of conservative parties decreases by about 2.7%. Unlike in national assembly elections, despite the introduction of the early voting system, election day weather still influences election results. Furthermore, compared to the precipitation effects observed in national assembly election results before the introduction of the early voting system, the effect of election day weather in local elections appears to be larger.
+    </p>
+  </details>
 <li>강우창&middot;이준호. 2024. <a href = "https://bit.ly/3xjV5DM">"오인과 과장 사이: 한국 유권자의 정서적 양극화에 대한 종단 분석(2000년 ~ 2022년)</a> [Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization Among Korean Voters (2000 - 2022)]." 한국정치학회보, 58(1): 7-32 <a href = "https://bit.ly/3xjV5DM" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
