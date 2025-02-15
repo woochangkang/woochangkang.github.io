@@ -34,21 +34,6 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 100%;">
     <h2>Gender Politics in Korea Working Group (<a href="https://genderpolitics.github.io/Website/" target="_blank">젠더정치연구회</a>)</h2>
-  </div>
-</div>
-
-
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 100%;">
-    <h2>Immigration Politics in Korea Working Group </h2>
-  </div>
-</div>
-
-
-```
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 48%;">
-    <h2>Gender Politics in Korea Working Group (<a href="https://genderpolitics.github.io/Website/" target="_blank">젠더정치연구회</a>)</h2>
     <ul>
       <li>HyunJin Cha</li>
       <li><a href="https://sites.google.com/site/sunkyoungpark12/" target="_blank">Sunkyung Park</a></li>
@@ -57,10 +42,11 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
       <li><a href="https://sites.google.com/site/bksong99" target="_blank">BK Song</a></li>
     </ul>
   </div>
-  <div style="width: 48%;">
-    <h2></h2>
-    <ul>
-    </ul>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 100%;">
+    <h2>Immigration Politics in Korea Working Group </h2>
   </div>
 </div>
-```
+
