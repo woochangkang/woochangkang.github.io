@@ -52,10 +52,10 @@ author_profile: true
     </div>
     <div class="title-line">
         <div class="thumbnail-container">
-            <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">
-                <img src="https://img.youtube.com/vi/GRUchi72B9s/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
+            <a href="https://www.youtube.com/watch?v=NNzKlxsTmWU" target="_blank">
+                <img src="https://img.youtube.com/vi/NNzKlxsTmWU/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
-            <a href="https://www.youtube.com/watch?v=GRUchi72B9s" target="_blank">[Link to Video]</a>
+            <a href="https://www.youtube.com/watch?v=NNzKlxsTmWU" target="_blank">[Link to Video]</a>
         </div>
         <h2>[TVN 벌거벗은 세계사 EP.148] 68년 만의 리턴 매치! 조 바이든 vs 도널드 트럼프, 2024년</h2>
     </div>
