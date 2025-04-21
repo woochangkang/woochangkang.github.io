@@ -43,10 +43,10 @@ author_profile: true
 <body>
     <div class="title-line">
         <div class="thumbnail-container">
-            <a href="https://www.youtube.com/watch?v=StzRK95Tl5c" target="_blank">
-                <img src="https://www.youtube.com/watch?v=StzRK95Tl5c/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
+            <a href="https://www.youtube.com/watch?v=7laggYRg74k" target="_blank">
+                <img src="https://img.youtube.com/vi/7laggYRg74k/0.jpg" alt="Thumbnail" class="thumbnail" onerror="this.onerror=null; this.src='placeholder.jpg';">
             </a>
-            <a href="https://www.youtube.com/watch?v=StzRK95Tl5c" target="_blank">[Link to Video]</a>
+            <a href="https://www.youtube.com/watch?v=7laggYRg74k" target="_blank">[Link to Video]</a>
         </div>
         <h2>[TVN 벌거벗은 세계사 EP.192] 일론 머스크, 트럼프의 적에서 킹 메이커로</h2>
     </div>
