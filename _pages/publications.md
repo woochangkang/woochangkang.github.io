@@ -34,14 +34,14 @@ author_profile: true
 ## Peer-reviewed Articles (in Korean)
 --- 
 <ol start="12" reversed>
-<li>김한나&middot;강우창. 2025. <a href = "https://bit.ly/4awpPCA">"2024년 미국 대선에서의 경제투표: 경제 성과와 인종 구성이 선거 결과에 미친 영향</a> [Economic Voting in the 2024 US Presidential Election: The Impact of Economic Performance and Racial Composition on Election Results]." 현대정치연구, 59(1): 5-28 <a href = "https://bit.ly/4awpPCA" style="color: crimson;">[Link to Paper]</a></li>
+<li>김한나&middot;강우창. 2025. <a href = "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003200680">"2024년 미국 대선에서의 경제투표: 경제 성과와 인종 구성이 선거 결과에 미친 영향</a> [Economic Voting in the 2024 US Presidential Election: The Impact of Economic Performance and Racial Composition on Election Results]." 현대정치연구, 59(1): 5-28 <a href = "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003200680" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p style="margin-left: 20px;margin-top: -10px">
       According to economic voting theory, improved economic conditions increase the incumbent’s chances of victory. However, in the 2024 U.S. presidential election, despite improved macroeconomic indicators, public perceptions of the economy remained negative, and Democratic candidate Harris lost to Republican candidate Trump. To explain this discrepancy, we analyze how economic changes and racial composition at the county level affected Democratic vote share. Our findings reveal that the impact of per capita income growth on Democratic support varied significantly by racial demographics. In predominantly white counties, income growth corresponded with increased Democratic support, but this effect weakened as white proportion decreased. In counties with non-white populations above a certain threshold, income growth actually led to decreased Democratic support. These results suggest that when racial composition intensifies intergroup tensions, the connection between economic conditions and voting behavior may weaken, potentially undermining democratic accountability mechanisms based on economic voting.
     </p>
   </details>
-<li>이준호&middot;강우창. 2025. <a href = "https://bit.ly/49Z7FJI">"인지된 이념적 양극화와 정서적 양극화</a> [Perceived Ideological Polarization and Affective Polarization]." 한국정치학회보, 59(1): 5-28 <a href = "https://bit.ly/49Z7FJI" style="color: crimson;">[Link to Paper]</a></li>
+<li>이준호&middot;강우창. 2025. <a href = "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191380">"인지된 이념적 양극화와 정서적 양극화</a> [Perceived Ideological Polarization and Affective Polarization]." 한국정치학회보, 59(1): 5-28 <a href = "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191380" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
     <p style="margin-left: 20px;margin-top: -10px">
