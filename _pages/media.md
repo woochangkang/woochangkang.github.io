@@ -48,7 +48,7 @@ author_profile: true
             </a>
             <a href="https://www.youtube.com/watch?v=7laggYRg74k" target="_blank">[Link to Video]</a>
         </div>
-        <h2>[TVN 벌거벗은 세계사 EP.192] 일론 머스크, 트럼프의 적에서 킹 메이커로</h2>
+        <h2>[TVN 벌거벗은 세계사 EP.192] 일론 머스크, 트럼프의 적에서 킹 메이커로, 2025년</h2>
     </div>
     <div class="title-line">
         <div class="thumbnail-container">

@@ -6,12 +6,13 @@ author_profile: true
 ---
 
 ## Peer-reviewed Articles (in English)
-<ol start="21" reversed>
+<ol start="22" reversed>
+  <li>Kweon, Yesola, Woo Chang Kang and Jong-sung You. Forthcoming, "Revisiting Candidate Gender Effects: Heuristics, Sexism, and Information Environments" <i>Politics \& Gender</i> </li>
+  <li>Chang, Han Il and Woo Chang Kang. 2025, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" <i>The Social Science Journal</i> 62(4), 1326–1338</li>
   <li>Song BK and Woo Chang Kang. 2025. "Inequality, Local Wealth, and Electoral Politics." <i>European Journal of Political Economy</i> Vol 89:102617</li>  
   <li>Kang, Woo Chang and Sunkyung Park. 2024. "Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility in South Korea." <i>Social Forces</i> 103(2):475-594</li>
   <li>Kang, Woo Chang and BK Song. 2024. "Making Sense of Heuristics Choice in Nonpartisan Elections: Evidence from South Korea." <i>Political Behavior</i> 46:1865-1886</li>
   <li>Kang, Woo Chang and SK Park. 2023. "When Do Homeowners Feel the Same as Renters? Housing Price Appreciation and Subjective Well-being in South Korea." <i>Cities</i>, Vol 134: </li>
-  <li>Chang, Han Il and Woo Chang Kang. 2021, "The Impact of the 2018 North Korea-United States Summit on South Koreans’ Altruism toward and Trust in North Korean Refugees" <i>Social Science Journal</i></li>
   <li>Kang, Woo Chang and Jill Sheppard, Feodor Snagovsky and Nicholas Biddle. 2021. "Candidate Sex, Partisanship and Electoral Context in Australia." <i>Electoral Studies</i>, 70:102273</li>
   <li>Snagovsky, Feodor, Woo Chang Kang Jill Sheppard and Nicholas Biddle. 2020. "The Impact of Descriptive Representation on External Efficacy in Australia." <i>Australian Journal of Political Science</i>, 55(4): 378-398</li>
   <li>Kang, Woo Chang and Emily Look. 2020. "Inequality and Attitudes toward Immigration: the Native-Immigrant Gap." <i>Australian Journal of Political Science</i>, 55(3): 257-275</li>
@@ -32,7 +33,21 @@ author_profile: true
 
 ## Peer-reviewed Articles (in Korean)
 --- 
-<ol start="10" reversed>
+<ol start="12" reversed>
+<li>김한나&middot;강우창. 2025. <a href = "https://bit.ly/4awpPCA">"2024년 미국 대선에서의 경제투표: 경제 성과와 인종 구성이 선거 결과에 미친 영향</a> [Economic Voting in the 2024 US Presidential Election: The Impact of Economic Performance and Racial Composition on Election Results]." 현대정치연구, 59(1): 5-28 <a href = "https://bit.ly/4awpPCA" style="color: crimson;">[Link to Paper]</a></li>
+<details>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
+    <p style="margin-left: 20px;margin-top: -10px">
+      According to economic voting theory, improved economic conditions increase the incumbent’s chances of victory. However, in the 2024 U.S. presidential election, despite improved macroeconomic indicators, public perceptions of the economy remained negative, and Democratic candidate Harris lost to Republican candidate Trump. To explain this discrepancy, we analyze how economic changes and racial composition at the county level affected Democratic vote share. Our findings reveal that the impact of per capita income growth on Democratic support varied significantly by racial demographics. In predominantly white counties, income growth corresponded with increased Democratic support, but this effect weakened as white proportion decreased. In counties with non-white populations above a certain threshold, income growth actually led to decreased Democratic support. These results suggest that when racial composition intensifies intergroup tensions, the connection between economic conditions and voting behavior may weaken, potentially undermining democratic accountability mechanisms based on economic voting.
+    </p>
+  </details>
+<li>이준호&middot;강우창. 2025. <a href = "https://bit.ly/49Z7FJI">"인지된 이념적 양극화와 정서적 양극화</a> [Perceived Ideological Polarization and Affective Polarization]." 한국정치학회보, 59(1): 5-28 <a href = "https://bit.ly/49Z7FJI" style="color: crimson;">[Link to Paper]</a></li>
+<details>
+    <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
+    <p style="margin-left: 20px;margin-top: -10px">
+      Our study analyzes the impact of 'perceived ideological polarization,' an aspect that has received little attention in previous literature on affective polarization in South Korea. We conducted both group-level and individual-level analyses to explore this phenomenon. Our group-level analysis shows that about 35% of the polarization perceived by partisan voters stems from misperception. Specifically, these voters tend to view the issue positions of supporters of both the opposing party and their own party as more extreme than they actually are. At the individual level, our analysis reveals an interesting finding. It is not the actual polarization (measured by the distance between the respondent's and the opposing party supporters' actual positions) that promotes affective polarization. Rather, it is the perceived polarization (measured by the distance between the respondent and the perceived position of opposing party voters) that drives this effect. These results suggest that a significant portion of affective polarization could be reduced simply by accurately perceiving the ideological positions of in-group and out-group party supporters.
+    </p>
+  </details>
 <li>강우창&middot;장한일&middot;장승진. 2024. <a href = "https://bit.ly/40YKGrR">"한국 교육감선거의 순서효과에 대한 실험연구</a> [An Experimental Study on Order Effects in Education Superintendent Elections in Korea]." 한국정당학회보, 23(4): 5-33 <a href = "https://bit.ly/40YKGrR" style="color: crimson;">[Link to Paper]</a></li>
 <details>
     <summary style="margin-top: -10px; margin-bottom: 10px;">Abstract in English</summary>
@@ -107,10 +122,17 @@ author_profile: true
   </ol>
 
 ## Works on Progress 
-<li>Kang, Woo Chang and Chris Dawes. "Electoral Effect of Stop and Frisk"</li>
+
 <li>Kang, Woo Chang and Sein Park. "Housing Prices, Rental Prices, and Perceptions about the Economy: Evidence from South Korea"</li>
-<li>Kweon, Yesola, Woo Chang Kang and Jong-sung You. "Revisiting Candidate Gender Effects: Heuristics, Sexism, and Information Environments"</li>
 <li>Kang, Woo Chang. "Politics of Face: Gender Typicality, Perceived Competence and Electoral Viability"</li>
+<li>Kang, Woo Chang, Osbern Huang, Koh Iwabuchi, Tetusro Kobayashi and Sunkyng Park    "Democratic Accountability in East Asia: A Comparative Experimental Study of Voter Responses to Norm Violations"</li>
+<li>Kang, Woo Chang, June Kang, Kyu-Man Han. "Depressive Symptoms Around the 2025 South Korean Presidential Election: The Roles of Voting, Electoral Outcomes, and Manipulation Beliefs"</li>
+<li>Kang, Woo Chang and Hannah Kim. "Correcting Political Misperceptions to Rebuild Norms of Good Citizenship in Polarized Democracies: Evidence from South Korea"</li>
+<li>Kang, Woo Chang and Hong-gie Kim. "Online Media Fragmentation and Political Polarization: A Cross-National Analysis of 51 Countries"</li>
+<li>Kang, Woo Chang. "Unraveling Gender Bias in Candidate Evaluations through the analysis of Representativeness, Competence, and Electability"</li>
+<li>Kang, Woo Chang and Han Il Chang. "How Does International Naming and Shaming Affect South Korean Attitudes Toward Refugees?"</li>
+<li>Kang, Woo Chang and Chris Dawes. "Electoral Effect of Stop and Frisk"</li>
+
 
 ## Grants
 <li>SSK 글로벌아젠다연구. 책임연구원. “다양성, 공존, 통합을 위한 이민정치연구.” 한국연구재단. 2024-2025</li>
