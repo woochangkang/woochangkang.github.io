@@ -108,11 +108,11 @@ def main():
               "venue: %s" % yq(d.get("publicationTitle","")), "detail: %s" % yq(detail),
               "date: %s" % date, "permalink: /publications/%s" % slug]
         if eng_title: fm.append("title_en: %s" % yq(eng_title))
-        if url: fm.append("url: %s" % yq(url))
+        if url: fm.append("link: %s" % yq(url))
         if d.get("DOI"): fm.append("doi: %s" % yq(d["DOI"]))
         fm.append("tags: []   # TODO: add topic tags")
         fm.append("---")
-        body = (d.get("abstractNote","") or "").strip() if cat == "korean" else ""
+        body = (d.get("abstractNote","") or "").strip()   # abstract -> Show abstract
         out = "\n".join(fm) + "\n" + ("\n" + body + "\n" if body else "")
         path = os.path.join(PUB, "%s-%s.md" % (date, slug))
         print("  NEW [%s] %s — %s" % (cat, year, d.get("title","")[:64]))

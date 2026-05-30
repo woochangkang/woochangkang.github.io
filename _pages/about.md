@@ -42,7 +42,10 @@ redirect_from:
   </div>
   <div class="pub-cards">
   {% assign recent = site.publications | sort: "date" | reverse %}
-  {% for p in recent limit: 5 %}<div class="pub-card">{{ p.content }}</div>
+  {% for p in recent limit: 5 %}<div class="pub-card">
+    <div class="pub-card__title">{{ p.title }}</div>
+    <div class="pub-card__meta">{{ p.authors }} &middot; <em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %} ({{ p.year }}){% if p.doi %} &middot; <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI</a>{% elsif p.link %} &middot; <a href="{{ p.link }}" target="_blank" rel="noopener">Link</a>{% endif %}</div>
+  </div>
   {% endfor %}</div>
 </section>
 
