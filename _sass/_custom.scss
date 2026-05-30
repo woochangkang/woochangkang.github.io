@@ -1,0 +1,245 @@
+/* ==========================================================================
+   CUSTOM — 2026 modernization (deep blue + serif headings + dark mode)
+   Imported last in main.scss so it overrides the base theme.
+   ========================================================================== */
+
+/* ---- Light-mode refinements --------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.003em;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+/* Section headers (e.g. About columns) get a subtle accent underline */
+.page__content > h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid mix(#fff, $primary-color, 78%);
+}
+
+a {
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.page__content {
+  a:not(.btn) {
+    text-decoration: none;
+    border-bottom: 1px solid mix(#fff, $link-color, 55%);
+    &:hover {
+      border-bottom-color: $link-color;
+    }
+  }
+}
+
+/* ---- Masthead: translucent, blurred, soft shadow ------------------------ */
+
+.masthead {
+  background: rgba(255, 255, 255, 0.82);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+          backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.greedy-nav {
+  background: transparent;
+  .visible-links a:before {
+    background: $primary-color;       // animated underline accent
+    height: 2px;
+  }
+}
+
+.masthead__menu-item--lg a {
+  font-family: $header-font-family;   // brand name in serif
+  font-weight: 600;
+}
+
+/* ---- Author sidebar ------------------------------------------------------ */
+
+.author__avatar img {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.author__name {
+  font-family: $header-font-family;
+}
+
+/* ---- Buttons ------------------------------------------------------------- */
+
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0;
+  transition: transform 0.1s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(29, 78, 216, 0.18);
+  }
+}
+
+/* ---- Archive / list items (publications, talks, teaching) --------------- */
+
+.archive__item-title {
+  font-family: $header-font-family;
+}
+
+blockquote {
+  border-left-color: $primary-color;
+}
+
+/* ---- Responsive two-column blocks on the About page --------------------- */
+/* Replaces fragile inline `style="width:48%"` flex with a wrapping grid.    */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+
+  @include breakpoint(max-width $small) {
+    grid-template-columns: 1fr;
+  }
+
+  &--full {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+/* ==========================================================================
+   DARK MODE  —  html[data-theme="dark"]
+   ========================================================================== */
+
+$dk-bg:      #0f1115;
+$dk-surface: #161922;
+$dk-text:    #d8dce3;
+$dk-muted:   #9aa3b2;
+$dk-border:  #283041;
+$dk-link:    #7aa2ff;
+
+html[data-theme="dark"] {
+  background-color: $dk-bg;
+
+  body {
+    background-color: $dk-bg;
+    color: $dk-text;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__item-title,
+  .author__name {
+    color: #f1f4f9;
+  }
+
+  .page__content > h2 {
+    border-bottom-color: mix($dk-bg, $primary-color, 45%);
+  }
+
+  /* Masthead */
+  .masthead {
+    background: rgba(15, 17, 21, 0.82);
+    border-bottom-color: $dk-border;
+  }
+  .greedy-nav,
+  .greedy-nav .visible-links a {
+    color: $dk-text;
+  }
+  .greedy-nav__toggle,
+  .greedy-nav button { color: $dk-text; }
+  .masthead__menu-item--lg a:hover,
+  .greedy-nav a:hover { color: $dk-link; }
+
+  /* Links */
+  a { color: $dk-link; }
+  .page__content a:not(.btn) {
+    color: $dk-link;
+    border-bottom-color: mix($dk-bg, $dk-link, 55%);
+    &:hover { border-bottom-color: $dk-link; }
+  }
+
+  /* Sidebar / author */
+  .author__bio,
+  .author__urls-wrapper,
+  .sidebar { color: $dk-muted; }
+  .author__avatar img {
+    border-color: $dk-border;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  }
+  .author__urls.social-icons a:not(.btn) { color: $dk-muted; }
+
+  /* Surfaces, borders, code */
+  .page__footer {
+    background: $dk-surface;
+    color: $dk-muted;
+    a { color: $dk-muted; }
+  }
+  code, .highlight, pre {
+    background-color: $dk-surface !important;
+    color: #e6e9ef;
+  }
+  blockquote { color: $dk-muted; }
+  hr, .archive__item, table, td, th {
+    border-color: $dk-border;
+  }
+  .btn:not([class*="btn--"]) {
+    background-color: #1f2937;
+    color: $dk-text;
+  }
+}
+
+/* ==========================================================================
+   THEME TOGGLE BUTTON  (injected by footer/custom.html)
+   ========================================================================== */
+
+.theme-toggle {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 30;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+  color: $primary-color;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.12s ease, background-color 0.2s ease, color 0.2s ease;
+
+  &:hover { transform: scale(1.08); }
+  &:focus { outline: none; }
+
+  .icon-sun  { display: none; }
+  .icon-moon { display: inline; }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  background: rgba(22, 25, 34, 0.92);
+  border-color: $dk-border;
+  color: #fcd34d;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+
+  .icon-sun  { display: inline; }
+  .icon-moon { display: none; }
+}

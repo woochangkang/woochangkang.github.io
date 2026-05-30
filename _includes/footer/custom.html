@@ -1,3 +1,21 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
+
+<!-- Dark / light mode toggle -->
+<button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+  <span class="icon-moon" aria-hidden="true">&#9789;</span><!-- moon -->
+  <span class="icon-sun" aria-hidden="true">&#9728;</span><!-- sun -->
+</button>
+<script>
+  (function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var root = document.documentElement;
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  })();
+</script>
 <!-- end custom footer snippets -->
