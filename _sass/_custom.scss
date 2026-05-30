@@ -44,18 +44,20 @@ a {
     border-bottom: 1px solid mix(#fff, $accent, 55%);
     &:hover { border-bottom-color: $accent; }
   }
+}
 
-  /* Section headers: "// " monospace prefix (code-comment feel) */
-  h2 {
-    margin: 1.4em 0 0.5em;
-    font-size: 1.22em;
+/* Section headers: "// " monospace prefix (code-comment feel).
+   Covers both single (.page__content) and archive (.archive) layouts. */
+.page__content h2,
+.archive h2:not(.archive__item-title) {
+  margin: 1.4em 0 0.5em;
+  font-size: 1.22em;
 
-    &:before {
-      content: "// ";
-      font-family: $monospace;
-      font-weight: 500;
-      color: $accent;
-    }
+  &:before {
+    content: "// ";
+    font-family: $monospace;
+    font-weight: 500;
+    color: $accent;
   }
 }
 
@@ -173,7 +175,8 @@ html[data-theme="dark"] {
     color: #f1f4f9;
   }
 
-  .page__content h2:before { color: $accent-dim; }
+  .page__content h2:before,
+  .archive h2:not(.archive__item-title):before { color: $accent-dim; }
 
   /* Masthead */
   .masthead {
