@@ -18,17 +18,23 @@ author_profile: true
 </div>
 
 <div class="filter-chips" id="topicFilter">
-  <span class="filter-chips__label">Filter by topic</span>
+  <span class="filter-chips__label">Filter</span>
   <button class="chip is-active" data-topic="all">All</button>
   <button class="chip" data-topic="Elections">Elections</button>
+  <button class="chip" data-topic="Voting">Voting</button>
+  <button class="chip" data-topic="Public Opinion">Public Opinion</button>
   <button class="chip" data-topic="Polarization">Polarization</button>
   <button class="chip" data-topic="Gender">Gender</button>
   <button class="chip" data-topic="Inequality">Inequality</button>
+  <button class="chip" data-topic="Real Estate Price">Real Estate Price</button>
   <button class="chip" data-topic="Immigration">Immigration</button>
-  <button class="chip" data-topic="North Korea">North Korea</button>
   <button class="chip" data-topic="Weather">Weather</button>
   <button class="chip" data-topic="Face">Face</button>
   <button class="chip" data-topic="Legacies">Legacies</button>
+  <button class="chip" data-topic="South Korea">South Korea</button>
+  <button class="chip" data-topic="US">US</button>
+  <button class="chip" data-topic="Australia">Australia</button>
+  <button class="chip" data-topic="North Korea">North Korea</button>
 </div>
 
 <h2 id="english">Peer-reviewed articles (English)</h2>
