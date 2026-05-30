@@ -1,32 +1,61 @@
 ---
 permalink: /
 title: ""
-author_profile: true
-redirect_from: 
+layout: single
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! My name is Woo Chang Kang and I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. I am interested in understanding the causes and consequences of political, social, and economic inequalities among social groups, with a particular focus on partisanship, gender, age groups, and immigrants. My research explores the interactions between voters and political elites during political processes within representative democracy, aiming to identify ways to mitigate inequalities and enhance representation.
-
-
-<div class="about-grid">
-  <div>
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Political Representation and Polarization</li>
-      <li>Intergroup Politics: Gender, Immigrants, Generation</li>
-      <li>Economic Inequality</li>
-      <li>Politics of Face</li>
-    </ul>
-  </div>
-  <div>
-    <h2>Education</h2>
-    <ul>
-      <li>BA in English Literature, Korea University</li>
-      <li>MA in Politics, Korea University</li>
-      <li>PhD in Politics, New York University</li>
-    </ul>
+<div class="home-hero">
+  <img class="home-hero__avatar" src="{{ '/images/profile.png' | relative_url }}" alt="Woo Chang Kang">
+  <div class="home-hero__body">
+    <h1 class="home-hero__name">Woo Chang Kang</h1>
+    <p class="home-hero__role">Associate Professor of Political Science</p>
+    <p class="home-hero__affil">Korea University · Seoul</p>
+    <p class="home-hero__statement">I study how voters and political elites interact in representative democracies — with a focus on inequalities among social groups by partisanship, gender, age, and migration status.</p>
+    <div class="home-hero__links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="https://instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener">Instagram</a>
+    </div>
   </div>
 </div>
 
+<section class="home-section">
+  <h2 class="home-section__label">Research interests</h2>
+  <div class="tag-row">
+    <span class="tag">Representation &amp; Polarization</span>
+    <span class="tag">Gender &amp; Intergroup Politics</span>
+    <span class="tag">Immigration</span>
+    <span class="tag">Economic Inequality</span>
+    <span class="tag">Politics of Face</span>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="home-section__head">
+    <h2 class="home-section__label">Selected publications</h2>
+    <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View all &rarr;</a>
+  </div>
+  <div class="pub-cards">
+  {% assign recent = site.publications | sort: "date" | reverse %}
+  {% for p in recent limit: 5 %}<div class="pub-card">{{ p.content }}</div>
+  {% endfor %}</div>
+</section>
+
+<section class="home-section">
+  <h2 class="home-section__label">About</h2>
+  <p>I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. My research explores the interactions between voters and political elites during political processes within representative democracy, aiming to identify ways to mitigate inequalities and enhance representation.</p>
+</section>
+
+<section class="home-section">
+  <h2 class="home-section__label">Education</h2>
+  <ul>
+    <li>Ph.D. in Politics, New York University</li>
+    <li>M.A. in Politics, Korea University</li>
+    <li>B.A. in English Literature, Korea University</li>
+  </ul>
+</section>
