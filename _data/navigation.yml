@@ -7,11 +7,8 @@ main:
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "CV"
-    url: /cv/
-    
+    url: /teaching/
+
   - title: "Living Lab"
     url: /livinglab/
 

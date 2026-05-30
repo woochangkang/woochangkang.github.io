@@ -46,19 +46,19 @@ a {
   }
 }
 
-/* Section headers: "// " monospace prefix (code-comment feel).
+/* Section headers: uppercase monospace eyebrow (unified with the home labels).
    Covers both single (.page__content) and archive (.archive) layouts. */
 .page__content h2,
 .archive h2:not(.archive__item-title) {
-  margin: 1.4em 0 0.5em;
-  font-size: 1.22em;
+  font-family: $monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82em;
+  font-weight: 600;
+  color: #6b7280;
+  margin: 1.9em 0 0.7em;
 
-  &:before {
-    content: "// ";
-    font-family: $monospace;
-    font-weight: 500;
-    color: $accent;
-  }
+  &:before { content: ""; }
 }
 
 /* ---- Masthead: clean, translucent, mono nav ----------------------------- */
@@ -133,6 +133,25 @@ blockquote { border-left-color: $accent; }
 
 code, tt, pre, .highlight { font-family: $monospace; }
 
+/* Tighter publication list (the only <ol> on the site = Publications page) */
+.archive ol {
+  padding-left: 1.7em;
+  margin: 0.4em 0 1.2em;
+}
+.archive ol li {
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.45;
+
+  p { margin: 0; }
+}
+.archive ol details {
+  margin: 0.15em 0 0.2em;
+
+  summary { font-size: 0.92em; }
+  p { font-size: 0.95em; line-height: 1.45; margin: 0.3em 0 0; }
+}
+
 /* ---- Responsive two-column blocks on the About page --------------------- */
 
 .about-grid {
@@ -175,8 +194,8 @@ html[data-theme="dark"] {
     color: #f1f4f9;
   }
 
-  .page__content h2:before,
-  .archive h2:not(.archive__item-title):before { color: $accent-dim; }
+  .page__content h2,
+  .archive h2:not(.archive__item-title) { color: $dk-muted; }
 
   /* Masthead */
   .masthead {
