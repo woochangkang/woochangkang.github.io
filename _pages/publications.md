@@ -71,33 +71,4 @@ author_profile: true
   <li>Laboratory Program for Korean Studies. Academy of Korean Studies, 2018</li>
 </ul>
 
-<script>
-(function () {
-  var wrap = document.getElementById('topicFilter');
-  if (!wrap) return;
-  function apply(topic) {
-    wrap.querySelectorAll('.chip').forEach(function (c) {
-      c.classList.toggle('is-active', c.getAttribute('data-topic') === topic);
-    });
-    document.querySelectorAll('.pub').forEach(function (li) {
-      var tags = (li.getAttribute('data-tags') || '').split('|');
-      li.style.display = (topic === 'all' || tags.indexOf(topic) >= 0) ? '' : 'none';
-    });
-  }
-  wrap.addEventListener('click', function (e) {
-    var b = e.target.closest('.chip');
-    if (b) apply(b.getAttribute('data-topic'));
-  });
-  // Deep link from the Research page, e.g. /publications/#topic=Polarization
-  function fromHash() {
-    var m = (location.hash || '').match(/topic=([^&]+)/);
-    if (!m) return;
-    var t = decodeURIComponent(m[1]);
-    var chip = Array.prototype.slice.call(wrap.querySelectorAll('.chip'))
-      .filter(function (c) { return c.getAttribute('data-topic') === t; })[0];
-    if (chip) { apply(t); chip.scrollIntoView({ block: 'nearest' }); }
-  }
-  fromHash();
-  window.addEventListener('hashchange', fromHash);
-})();
-</script>
+<script src="{{ '/assets/js/pubfilter.js' | relative_url }}"></script>
