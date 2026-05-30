@@ -225,6 +225,77 @@ html[data-theme="dark"] {
   .plain-list li { color: $dk-text; }
 }
 
+/* ===== Research overview: strand cards ===== */
+.research-intro { font-size: 1em; line-height: 1.55; color: #444; max-width: 44em; margin: 0.4em 0 1.3em; }
+.method-tags { display: flex; flex-wrap: wrap; gap: 0.5em; margin: 0 0 1.8em; }
+.method-tag {
+  font-family: $monospace; font-size: 0.72em; color: #374151;
+  background: #f3f4f6; border-radius: 999px; padding: 0.4em 0.9em;
+}
+
+.research-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; }
+@include breakpoint(max-width $small) { .research-cards { grid-template-columns: 1fr; } }
+
+.rcard {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 1.1em 1.2em;
+  background: #fff;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  &:hover { border-color: mix(#fff, $accent, 40%); box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+}
+.rcard__head { display: flex; align-items: center; gap: 0.55em; margin-bottom: 0.45em; }
+.rcard__icon { color: $accent; font-size: 1.05em; }
+
+/* card title must NOT inherit the global uppercase-eyebrow h2 style */
+.page__content h2.rcard__title,
+.archive h2.rcard__title {
+  font-family: $sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  color: $text-color;
+  margin: 0;
+  &:before { content: ""; }
+}
+
+.rcard__summary { font-size: 0.92em; line-height: 1.5; color: #444; margin: 0 0 0.7em; }
+.rcard__rep { font-size: 0.86em; line-height: 1.45; color: #555; margin: 0 0 0.8em; }
+.rcard__rep-label {
+  display: block; font-family: $monospace; font-size: 0.82em;
+  text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280; margin-bottom: 0.15em;
+}
+.rcard__link {
+  font-family: $monospace; font-size: 0.78em; font-weight: 500;
+  color: $accent; text-decoration: none !important; border-bottom: 0 !important;
+  &:hover { text-decoration: underline !important; }
+}
+
+.rcard--feature {
+  grid-column: 1 / -1;
+  border-color: $accent;
+  background: mix(#fff, $accent, 96%);
+  position: relative;
+}
+.rcard__badge {
+  display: inline-block; margin-bottom: 0.5em;
+  font-family: $monospace; font-size: 0.62em; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  background: $accent; color: #fff; border-radius: 6px; padding: 0.22em 0.55em;
+}
+
+html[data-theme="dark"] {
+  .research-intro, .rcard__summary, .rcard__rep { color: $dk-muted; }
+  .method-tag { background: rgba(255,255,255,0.06); color: $dk-text; }
+  .rcard { background: $dk-surface; border-color: $dk-border; }
+  .page__content h2.rcard__title, .archive h2.rcard__title { color: #f1f4f9; }
+  .rcard__rep-label { color: $dk-muted; }
+  .rcard__link { color: $dk-link; }
+  .rcard--feature { background: rgba(34,211,238,0.06); border-color: $accent; }
+  .rcard__badge { color: #04222a; }
+}
+
 /* ---- Responsive two-column blocks on the About page --------------------- */
 
 .about-grid {
