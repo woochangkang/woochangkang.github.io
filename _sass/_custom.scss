@@ -151,16 +151,29 @@ code, tt, pre, .highlight { font-family: $monospace; }
 }
 .metric {
   display: block;
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-bottom: 1px solid rgba(0, 0, 0, 0.09) !important;
   border-radius: 12px;
   padding: 0.75em 0.95em;
   background: #fafafa;
   text-decoration: none !important;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
   &:hover { border-color: mix(#fff, $accent, 35%) !important; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+  &.is-active {
+    border-color: $accent !important;
+    border-bottom-color: $accent !important;
+    background: mix(#fff, $accent, 93%);
+    .metric__n { color: $accent; }
+  }
 }
 .metric__n { display: block; font-size: 1.9em; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+
+.pub-tab[hidden] { display: none; }
 .metric__l { display: block; font-family: $monospace; font-size: 0.68em; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280; margin-top: 0.2em; }
 
 .filter-chips { display: flex; flex-wrap: wrap; gap: 0.4em; align-items: center; margin: 0 0 1.6em; }
@@ -210,7 +223,9 @@ code, tt, pre, .highlight { font-family: $monospace; }
 
 /* Publications dark mode */
 html[data-theme="dark"] {
-  .metric { background: $dk-surface; border-color: $dk-border !important; border-bottom-color: $dk-border !important; }
+  .metric { background: $dk-surface; border-color: $dk-border !important; border-bottom-color: $dk-border !important;
+    &.is-active { border-color: $accent !important; border-bottom-color: $accent !important; background: rgba(34,211,238,0.08);
+      .metric__n { color: $dk-link; } } }
   .metric__l { color: $dk-muted; }
   .chip { color: $dk-text; border-color: $dk-border; &.is-active { background: $accent; color: #04222a; border-color: $accent; } }
   .pub { border-top-color: $dk-border; }

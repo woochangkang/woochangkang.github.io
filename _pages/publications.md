@@ -10,11 +10,11 @@ author_profile: true
 {% assign en = site.publications | where: "category", "english" | sort: "date" | reverse %}
 {% assign ko = site.publications | where: "category", "korean" | sort: "date" | reverse %}
 
-<div class="pub-metrics">
-  <a class="metric" href="#english"><span class="metric__n">{{ en | size }}</span><span class="metric__l">English articles</span></a>
-  <a class="metric" href="#korean"><span class="metric__n">{{ ko | size }}</span><span class="metric__l">Korean articles</span></a>
-  <a class="metric" href="#wip"><span class="metric__n">9</span><span class="metric__l">Works in progress</span></a>
-  <a class="metric" href="#grants"><span class="metric__n">6</span><span class="metric__l">Grants</span></a>
+<div class="pub-metrics" id="pubTabs" role="tablist">
+  <button class="metric is-active" data-tab="english"><span class="metric__n">{{ en | size }}</span><span class="metric__l">English articles</span></button>
+  <button class="metric" data-tab="korean"><span class="metric__n">{{ ko | size }}</span><span class="metric__l">Korean articles</span></button>
+  <button class="metric" data-tab="wip"><span class="metric__n">9</span><span class="metric__l">Works in progress</span></button>
+  <button class="metric" data-tab="grants"><span class="metric__n">6</span><span class="metric__l">Grants</span></button>
 </div>
 
 <div class="filter-chips" id="topicFilter">
@@ -39,17 +39,19 @@ author_profile: true
   <button class="chip" data-topic="Cross-national Studies">Cross-national Studies</button>
 </div>
 
-<h2 id="english">Peer-reviewed articles (English)</h2>
+<section class="pub-tab" data-tab="english">
 <ol class="pub-list">
 {% for p in en %}{% include publication-item.html p=p %}{% endfor %}
 </ol>
+</section>
 
-<h2 id="korean">Peer-reviewed articles (Korean)</h2>
+<section class="pub-tab" data-tab="korean" hidden>
 <ol class="pub-list">
 {% for p in ko %}{% include publication-item.html p=p %}{% endfor %}
 </ol>
+</section>
 
-<h2 id="wip">Works in progress</h2>
+<section class="pub-tab" data-tab="wip" hidden>
 <ul class="plain-list">
   <li>Kang, Woo Chang and Sein Park. "Housing Prices, Rental Prices, and Perceptions about the Economy: Evidence from South Korea"</li>
   <li>Kang, Woo Chang. "Politics of Face: Gender Typicality, Perceived Competence and Electoral Viability"</li>
@@ -61,8 +63,9 @@ author_profile: true
   <li>Kang, Woo Chang and Han Il Chang. "How Does International Naming and Shaming Affect South Korean Attitudes Toward Refugees?"</li>
   <li>Kang, Woo Chang and Chris Dawes. "Electoral Effect of Stop and Frisk"</li>
 </ul>
+</section>
 
-<h2 id="grants">Grants</h2>
+<section class="pub-tab" data-tab="grants" hidden>
 <ul class="plain-list">
   <li>SSK 글로벌아젠다연구. 책임연구원. "다양성, 공존, 통합을 위한 이민정치연구." 한국연구재단. 2024-2025</li>
   <li>신진연구자 지원사업. 책임연구원. "인공지능을 활용한 선거 후보자 이미지 연구." 한국연구재단. 2023-2025</li>
@@ -71,5 +74,6 @@ author_profile: true
   <li>일반공동연구. 공동연구원. "딥페이크 시대의 유권자: 빅데이터와 실험을 통한 가짜뉴스 효과연구." 한국연구재단, 2020-2023</li>
   <li>Laboratory Program for Korean Studies. Academy of Korean Studies, 2018</li>
 </ul>
+</section>
 
 <script src="{{ '/assets/js/pubfilter.js' | relative_url }}"></script>
