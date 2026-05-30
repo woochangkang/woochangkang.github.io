@@ -10,8 +10,8 @@ redirect_from:
 Welcome! My name is Woo Chang Kang and I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. I am interested in understanding the causes and consequences of political, social, and economic inequalities among social groups, with a particular focus on partisanship, gender, age groups, and immigrants. My research explores the interactions between voters and political elites during political processes within representative democracy, aiming to identify ways to mitigate inequalities and enhance representation.
 
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 48%;">
+<div class="about-grid">
+  <div>
     <h2>Research Interests</h2>
     <ul>
       <li>Political Representation and Polarization</li>
@@ -20,7 +20,7 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
       <li>Politics of Face</li>
     </ul>
   </div>
-  <div style="width: 48%;">
+  <div>
     <h2>Education</h2>
     <ul>
       <li>BA in English Literature, Korea University</li>
@@ -31,8 +31,8 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
 </div>
 
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 100%;">
+<div class="about-grid about-grid--full">
+  <div>
     <h2>Gender Politics in Korea Working Group (<a href="https://genderpolitics.github.io/Website/" target="_blank">젠더정치연구회</a>)</h2>
     <ul>
       <li>HyunJin Cha</li>
@@ -44,8 +44,8 @@ Welcome! My name is Woo Chang Kang and I am an associate professor in the Depart
   </div>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 100%;">
+<div class="about-grid about-grid--full">
+  <div>
     <h2>Immigration Politics in Korea Working Group </h2>
   </div>
 </div>
