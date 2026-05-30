@@ -1,9 +1,14 @@
 /* ==========================================================================
-   CUSTOM — 2026 modernization (deep blue + serif headings + dark mode)
+   CUSTOM — professional "data scientist" look
+   IBM Plex Sans / Sans KR (text) + IBM Plex Mono (labels) + cyan accent.
+   Compact density, "// " mono section headers.
    Imported last in main.scss so it overrides the base theme.
    ========================================================================== */
 
-/* ---- Light-mode refinements --------------------------------------------- */
+$accent:     #0891b2;   // cyan-600
+$accent-dim: #06b6d4;   // cyan-500
+
+/* ---- Base typography ----------------------------------------------------- */
 
 html {
   scroll-behavior: smooth;
@@ -12,39 +17,52 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.003em;
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.25;
-}
-
-/* Section headers (e.g. About columns) get a subtle accent underline */
-.page__content > h2 {
-  padding-bottom: 0.3em;
-  border-bottom: 2px solid mix(#fff, $primary-color, 78%);
 }
 
 a {
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+/* ---- Compact, structured content density -------------------------------- */
+
 .page__content {
+  font-size: 0.95em;
+
+  p  { margin: 0 0 0.7em; line-height: 1.55; }
+  ul, ol { margin-top: 0.3em; margin-bottom: 0.8em; }
+  li { margin-bottom: 0.18em; line-height: 1.5; }
+
   a:not(.btn) {
     text-decoration: none;
-    border-bottom: 1px solid mix(#fff, $link-color, 55%);
-    &:hover {
-      border-bottom-color: $link-color;
+    border-bottom: 1px solid mix(#fff, $accent, 55%);
+    &:hover { border-bottom-color: $accent; }
+  }
+
+  /* Section headers: "// " monospace prefix (code-comment feel) */
+  h2 {
+    margin: 1.4em 0 0.5em;
+    font-size: 1.22em;
+
+    &:before {
+      content: "// ";
+      font-family: $monospace;
+      font-weight: 500;
+      color: $accent;
     }
   }
 }
 
-/* ---- Masthead: translucent, blurred, soft shadow ------------------------ */
+/* ---- Masthead: clean, translucent, mono nav ----------------------------- */
 
 .masthead {
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(12px);
           backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
@@ -53,72 +71,81 @@ a {
 
 .greedy-nav {
   background: transparent;
-  .visible-links a:before {
-    background: $primary-color;       // animated underline accent
-    height: 2px;
-  }
+  .visible-links a:before { background: $accent; height: 2px; }
 }
 
+/* Brand name = IBM Plex Sans semibold */
 .masthead__menu-item--lg a {
-  font-family: $header-font-family;   // brand name in serif
   font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Nav items = monospace, uppercase, tracked — technical menu feel */
+.masthead__menu-item:not(.masthead__menu-item--lg) a {
+  font-family: $monospace;
+  text-transform: uppercase;
+  font-size: 0.72em;
+  letter-spacing: 0.06em;
 }
 
 /* ---- Author sidebar ------------------------------------------------------ */
 
 .author__avatar img {
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
-.author__name {
-  font-family: $header-font-family;
+.author__name { font-weight: 600; }
+
+.author__bio {
+  color: mix(#fff, #1a1a1a, 35%);
+  font-size: 0.9em;
+}
+
+/* Sidebar contact links = small mono, understated */
+.author__urls.social-icons a:not(.btn) {
+  font-family: $monospace;
+  font-size: 0.78em;
+  letter-spacing: 0.01em;
 }
 
 /* ---- Buttons ------------------------------------------------------------- */
 
 .btn {
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 600;
   letter-spacing: 0;
   transition: transform 0.1s ease, box-shadow 0.15s ease, background-color 0.15s ease;
   &:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(29, 78, 216, 0.18);
+    box-shadow: 0 6px 16px rgba(8, 145, 178, 0.22);
   }
 }
 
 /* ---- Archive / list items (publications, talks, teaching) --------------- */
 
-.archive__item-title {
-  font-family: $header-font-family;
-}
+.archive__item-title { font-weight: 600; }
 
-blockquote {
-  border-left-color: $primary-color;
-}
+blockquote { border-left-color: $accent; }
+
+code, tt, pre, .highlight { font-family: $monospace; }
 
 /* ---- Responsive two-column blocks on the About page --------------------- */
-/* Replaces fragile inline `style="width:48%"` flex with a wrapping grid.    */
 
 .about-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5em;
-  margin-bottom: 1.5em;
+  gap: 1.2em;
+  margin-bottom: 1.2em;
 
   @include breakpoint(max-width $small) {
     grid-template-columns: 1fr;
   }
 
-  &--full {
-    grid-template-columns: 1fr;
-  }
+  &--full { grid-template-columns: 1fr; }
 
-  h2 {
-    margin-top: 0;
-  }
+  h2 { margin-top: 0.3em; }
 }
 
 /* ==========================================================================
@@ -130,7 +157,7 @@ $dk-surface: #161922;
 $dk-text:    #d8dce3;
 $dk-muted:   #9aa3b2;
 $dk-border:  #283041;
-$dk-link:    #7aa2ff;
+$dk-link:    #22d3ee;   // cyan-400
 
 html[data-theme="dark"] {
   background-color: $dk-bg;
@@ -146,9 +173,7 @@ html[data-theme="dark"] {
     color: #f1f4f9;
   }
 
-  .page__content > h2 {
-    border-bottom-color: mix($dk-bg, $primary-color, 45%);
-  }
+  .page__content h2:before { color: $accent-dim; }
 
   /* Masthead */
   .masthead {
@@ -156,9 +181,7 @@ html[data-theme="dark"] {
     border-bottom-color: $dk-border;
   }
   .greedy-nav,
-  .greedy-nav .visible-links a {
-    color: $dk-text;
-  }
+  .greedy-nav .visible-links a { color: $dk-text; }
   .greedy-nav__toggle,
   .greedy-nav button { color: $dk-text; }
   .masthead__menu-item--lg a:hover,
@@ -193,9 +216,7 @@ html[data-theme="dark"] {
     color: #e6e9ef;
   }
   blockquote { color: $dk-muted; }
-  hr, .archive__item, table, td, th {
-    border-color: $dk-border;
-  }
+  hr, .archive__item, table, td, th { border-color: $dk-border; }
   .btn:not([class*="btn--"]) {
     background-color: #1f2937;
     color: $dk-text;
@@ -217,10 +238,10 @@ html[data-theme="dark"] {
   align-items: center;
   justify-content: center;
   padding: 0;
-  border-radius: 50%;
+  border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.9);
-  color: $primary-color;
+  color: $accent;
   font-size: 18px;
   line-height: 1;
   cursor: pointer;

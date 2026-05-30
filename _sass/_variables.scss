@@ -13,9 +13,9 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "Newsreader", Georgia, Times, serif;
-$sans-serif                 : "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
+$serif                      : "IBM Plex Sans", "IBM Plex Sans KR", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$sans-serif                 : "IBM Plex Sans", "IBM Plex Sans KR", -apple-system, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+$monospace                  : "IBM Plex Mono", "IBM Plex Sans KR", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -29,8 +29,8 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $serif;
-$caption-font-family        : $serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -68,11 +68,11 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #1d4ed8;
+$primary-color              : #0891b2;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #2563eb;
+$info-color                 : #0891b2;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -102,11 +102,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : #1d4ed8;
+$link-color                 : #0891b2;
 $link-color-hover           : mix(#000, $link-color, 20%);
 $link-color-visited         : mix(#fff, $link-color, 15%);
 $masthead-link-color        : $dark-gray;
-$masthead-link-color-hover  : #1d4ed8;
+$masthead-link-color-hover  : #0891b2;
 
 
 /*
