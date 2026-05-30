@@ -8,6 +8,14 @@
 $accent:     #0891b2;   // cyan-600
 $accent-dim: #06b6d4;   // cyan-500
 
+// dark palette (declared early so all blocks below can reference it)
+$dk-bg:      #0f1115;
+$dk-surface: #161922;
+$dk-text:    #d8dce3;
+$dk-muted:   #9aa3b2;
+$dk-border:  #283041;
+$dk-link:    #22d3ee;   // cyan-400
+
 /* ---- Base typography ----------------------------------------------------- */
 
 html {
@@ -133,23 +141,88 @@ blockquote { border-left-color: $accent; }
 
 code, tt, pre, .highlight { font-family: $monospace; }
 
-/* Tighter publication list (the only <ol> on the site = Publications page) */
-.archive ol {
-  padding-left: 1.7em;
-  margin: 0.4em 0 1.2em;
+/* ===== Publications: metric cards + topic filter + structured list ===== */
+.pub-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7em;
+  margin: 1em 0 1.5em;
+  @include breakpoint(max-width $small) { grid-template-columns: repeat(2, 1fr); }
 }
-.archive ol li {
-  margin-bottom: 0.5em;
-  font-size: 0.9em;
-  line-height: 1.45;
-
-  p { margin: 0; }
+.metric {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09) !important;
+  border-radius: 12px;
+  padding: 0.75em 0.95em;
+  background: #fafafa;
+  text-decoration: none !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  &:hover { border-color: mix(#fff, $accent, 35%) !important; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
 }
-.archive ol details {
-  margin: 0.15em 0 0.2em;
+.metric__n { display: block; font-size: 1.9em; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+.metric__l { display: block; font-family: $monospace; font-size: 0.68em; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280; margin-top: 0.2em; }
 
-  summary { font-size: 0.92em; }
-  p { font-size: 0.95em; line-height: 1.45; margin: 0.3em 0 0; }
+.filter-chips { display: flex; flex-wrap: wrap; gap: 0.4em; align-items: center; margin: 0 0 1.6em; }
+.filter-chips__label { font-family: $monospace; font-size: 0.7em; text-transform: uppercase; letter-spacing: 0.06em; color: #6b7280; margin-right: 0.3em; }
+.chip {
+  font-family: $monospace; font-size: 0.72em; cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.14); border-radius: 999px;
+  padding: 0.35em 0.8em; background: transparent; color: #374151;
+  transition: all 0.12s ease;
+  &:hover { border-color: $accent; }
+  &.is-active { background: $accent; color: #fff; border-color: $accent; }
+}
+
+.pub-list { list-style: none; margin: 0.2em 0 1.6em; padding: 0; }
+.pub {
+  display: flex; gap: 1em;
+  padding: 0.75em 0; border-top: 1px solid rgba(0, 0, 0, 0.07);
+  &:first-child { border-top: 0; }
+}
+.pub__year { flex: 0 0 3.1em; font-family: $monospace; font-size: 0.78em; color: #6b7280; padding-top: 0.2em; }
+.pub__body { flex: 1 1 auto; min-width: 0; }
+.pub__title {
+  font-weight: 600; font-size: 1.02em; line-height: 1.3; color: $text-color;
+  text-decoration: none !important; border-bottom: 0 !important;
+  &:hover { color: $accent; }
+}
+.pub__title-en { font-size: 0.88em; color: #6b7280; margin-top: 0.05em; }
+.pub__authors { font-size: 0.9em; margin-top: 0.12em; }
+.pub__venue { font-size: 0.88em; color: #555; margin-top: 0.02em; }
+.pub__meta { display: flex; flex-wrap: wrap; gap: 0.4em; align-items: center; margin-top: 0.4em; }
+.badge { font-family: $monospace; font-size: 0.66em; font-weight: 500; padding: 0.22em 0.5em; border-radius: 6px; }
+.badge--fc { background: #e0e7ff; color: #3730a3; }
+.badge--nyt { background: #dcfce7; color: #166534; text-decoration: none !important; border-bottom: 0 !important; }
+.iconbtn {
+  font-family: $monospace; font-size: 0.66em; color: $accent;
+  border: 1px solid rgba(0, 0, 0, 0.14); border-radius: 6px; padding: 0.22em 0.5em;
+  text-decoration: none !important; border-bottom: 1px solid rgba(0, 0, 0, 0.14) !important;
+  &:hover { border-color: $accent !important; }
+}
+.topic { font-family: $monospace; font-size: 0.64em; color: #6b7280; background: #f3f4f6; border-radius: 5px; padding: 0.22em 0.45em; }
+.pub__abs { margin-top: 0.45em; }
+.pub__abs summary { font-family: $monospace; font-size: 0.7em; color: $accent; cursor: pointer; }
+.pub__abs p { font-size: 0.9em; color: #444; line-height: 1.5; margin: 0.4em 0 0; }
+
+.plain-list { margin: 0.3em 0 1.6em; padding-left: 1.2em; }
+.plain-list li { font-size: 0.9em; line-height: 1.5; margin-bottom: 0.4em; }
+
+/* Publications dark mode */
+html[data-theme="dark"] {
+  .metric { background: $dk-surface; border-color: $dk-border !important; border-bottom-color: $dk-border !important; }
+  .metric__l { color: $dk-muted; }
+  .chip { color: $dk-text; border-color: $dk-border; &.is-active { background: $accent; color: #04222a; border-color: $accent; } }
+  .pub { border-top-color: $dk-border; }
+  .pub__year, .pub__title-en, .pub__venue { color: $dk-muted; }
+  .pub__title { color: #f1f4f9; &:hover { color: $dk-link; } }
+  .badge--fc { background: #312e81; color: #c7d2fe; }
+  .badge--nyt { background: #14532d; color: #bbf7d0; }
+  .iconbtn { color: $dk-link; border-color: $dk-border !important; }
+  .topic { background: rgba(255,255,255,0.06); color: $dk-muted; }
+  .pub__abs summary { color: $dk-link; }
+  .pub__abs p { color: $dk-muted; }
+  .plain-list li { color: $dk-text; }
 }
 
 /* ---- Responsive two-column blocks on the About page --------------------- */

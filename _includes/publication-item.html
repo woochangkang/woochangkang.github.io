@@ -1,0 +1,19 @@
+{% assign p = include.p %}
+{% assign abs = p.content | strip_html | strip %}
+<li class="pub" data-tags="{{ p.tags | join: '|' }}">
+  <span class="pub__year">{{ p.year }}</span>
+  <div class="pub__body">
+    {% if p.url %}<a class="pub__title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}<span class="pub__title">{{ p.title }}</span>{% endif %}
+    {% if p.title_en %}<div class="pub__title-en">{{ p.title_en }}</div>{% endif %}
+    <div class="pub__authors">{{ p.authors }}</div>
+    <div class="pub__venue"><em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %}</div>
+    <div class="pub__meta">
+      {% if p.forthcoming %}<span class="badge badge--fc">Forthcoming</span>{% endif %}
+      {% if p.featured %}<a class="badge badge--nyt" href="{{ p.featured_url }}" target="_blank" rel="noopener">&#9733; Featured in {{ p.featured }}</a>{% endif %}
+      {% if p.doi %}<a class="iconbtn" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">&#128279; DOI</a>{% endif %}
+      {% if p.category == 'korean' and p.url %}<a class="iconbtn" href="{{ p.url }}" target="_blank" rel="noopener">&#128279; Link</a>{% endif %}
+      {% for t in p.tags %}<span class="topic">{{ t }}</span>{% endfor %}
+    </div>
+    {% if abs != "" %}<details class="pub__abs"><summary>Show abstract</summary>{{ p.content }}</details>{% endif %}
+  </div>
+</li>

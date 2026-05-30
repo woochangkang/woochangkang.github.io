@@ -10,20 +10,36 @@ author_profile: true
 {% assign en = site.publications | where: "category", "english" | sort: "date" | reverse %}
 {% assign ko = site.publications | where: "category", "korean" | sort: "date" | reverse %}
 
-## Peer-reviewed Articles (in English)
-{% assign en_n = en | size %}
-<ol>
-{% for p in en %}<li value="{{ en_n | minus: forloop.index0 }}">{{ p.content }}</li>
-{% endfor %}</ol>
+<div class="pub-metrics">
+  <a class="metric" href="#english"><span class="metric__n">{{ en | size }}</span><span class="metric__l">English articles</span></a>
+  <a class="metric" href="#korean"><span class="metric__n">{{ ko | size }}</span><span class="metric__l">Korean articles</span></a>
+  <a class="metric" href="#wip"><span class="metric__n">9</span><span class="metric__l">Works in progress</span></a>
+  <a class="metric" href="#grants"><span class="metric__n">6</span><span class="metric__l">Grants</span></a>
+</div>
 
-## Peer-reviewed Articles (in Korean)
-{% assign ko_n = ko | size %}
-<ol>
-{% for p in ko %}<li value="{{ ko_n | minus: forloop.index0 }}">{{ p.content }}</li>
-{% endfor %}</ol>
+<div class="filter-chips" id="topicFilter">
+  <span class="filter-chips__label">Filter by topic</span>
+  <button class="chip is-active" data-topic="all">All</button>
+  <button class="chip" data-topic="Polarization">Polarization</button>
+  <button class="chip" data-topic="Gender">Gender</button>
+  <button class="chip" data-topic="Elections &amp; weather">Elections &amp; weather</button>
+  <button class="chip" data-topic="Immigration">Immigration</button>
+  <button class="chip" data-topic="Inequality">Inequality</button>
+  <button class="chip" data-topic="Politics of face">Politics of face</button>
+</div>
 
-## Works in Progress
-<ul>
+<h2 id="english">Peer-reviewed articles (English)</h2>
+<ol class="pub-list">
+{% for p in en %}{% include publication-item.html p=p %}{% endfor %}
+</ol>
+
+<h2 id="korean">Peer-reviewed articles (Korean)</h2>
+<ol class="pub-list">
+{% for p in ko %}{% include publication-item.html p=p %}{% endfor %}
+</ol>
+
+<h2 id="wip">Works in progress</h2>
+<ul class="plain-list">
   <li>Kang, Woo Chang and Sein Park. "Housing Prices, Rental Prices, and Perceptions about the Economy: Evidence from South Korea"</li>
   <li>Kang, Woo Chang. "Politics of Face: Gender Typicality, Perceived Competence and Electoral Viability"</li>
   <li>Kang, Woo Chang, Osbern Huang, Koh Iwabuchi, Tetusro Kobayashi and Sunkyng Park. "Democratic Accountability in East Asia: A Comparative Experimental Study of Voter Responses to Norm Violations"</li>
@@ -35,8 +51,8 @@ author_profile: true
   <li>Kang, Woo Chang and Chris Dawes. "Electoral Effect of Stop and Frisk"</li>
 </ul>
 
-## Grants
-<ul>
+<h2 id="grants">Grants</h2>
+<ul class="plain-list">
   <li>SSK 글로벌아젠다연구. 책임연구원. "다양성, 공존, 통합을 위한 이민정치연구." 한국연구재단. 2024-2025</li>
   <li>신진연구자 지원사업. 책임연구원. "인공지능을 활용한 선거 후보자 이미지 연구." 한국연구재단. 2023-2025</li>
   <li>일반공동연구. 공동연구원. "젠더갈등 해소를 위한 통합의 정치: 선호, 과정, 제도 연구." 한국연구재단. 2023-2026</li>
@@ -44,3 +60,21 @@ author_profile: true
   <li>일반공동연구. 공동연구원. "딥페이크 시대의 유권자: 빅데이터와 실험을 통한 가짜뉴스 효과연구." 한국연구재단, 2020-2023</li>
   <li>Laboratory Program for Korean Studies. Academy of Korean Studies, 2018</li>
 </ul>
+
+<script>
+(function () {
+  var wrap = document.getElementById('topicFilter');
+  if (!wrap) return;
+  wrap.addEventListener('click', function (e) {
+    var b = e.target.closest('.chip');
+    if (!b) return;
+    wrap.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('is-active'); });
+    b.classList.add('is-active');
+    var topic = b.getAttribute('data-topic');
+    document.querySelectorAll('.pub').forEach(function (li) {
+      var tags = (li.getAttribute('data-tags') || '').split('|');
+      li.style.display = (topic === 'all' || tags.indexOf(topic) >= 0) ? '' : 'none';
+    });
+  });
+})();
+</script>
