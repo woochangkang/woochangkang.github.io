@@ -16,59 +16,61 @@ author_profile: true
 <div class="research-cards">
 
   <article class="rcard">
-    <div class="rcard__rail">
-      <div class="rcard__titlewrap"><i class="fas fa-fw fa-check-to-slot rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Elections, Voting, and Heuristics</h2></div>
-      <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Elections">Related publications &rarr;</a>
-    </div>
-    <div class="rcard__content">
-      <p class="rcard__summary">How voters decide under limited information, and which low-information cues move outcomes — the opportunity costs of voting and election-day weather, ballot-order and nonpartisan-election heuristics, incumbency, and candidate appearance.</p>
-      <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span>"The Liberals Should Pray for Rain" (<em>Political Science</em>, 2019); "Making Sense of Heuristics Choice in Nonpartisan Elections" (<em>Political Behavior</em>, 2024).</p>
-    </div>
+    <div class="rcard__titlewrap"><i class="fas fa-fw fa-robot rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">AI and Political Science</h2></div>
+    <p class="rcard__summary">An emerging agenda using vision-language models (e.g., GPT-4o, Claude) to evaluate political candidates' faces and other political stimuli — comparing machine and human judgments, probing what models "see," and using AI to scale image-based measurement in political science.</p>
+    <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span><em>Working papers in progress.</em></p>
   </article>
 
   <article class="rcard">
-    <div class="rcard__rail">
-      <div class="rcard__titlewrap"><i class="fas fa-fw fa-people-arrows rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Representation and Polarization</h2></div>
-      <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Polarization">Related publications &rarr;</a>
+    <div class="rcard__titlewrap"><i class="fas fa-fw fa-landmark rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Polarization and Democracy</h2></div>
+    <p class="rcard__summary">Affective and perceived polarization among Korean voters — distinguishing actual from <em>perceived</em> polarization, tracking it over time, and its consequences for democratic accountability.</p>
+    <div class="rcard__rep">
+      <span class="rcard__rep-label">Representative work</span>
+      <ul class="rcard__replist">
+        <li>"Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization" (<em>한국정치학회보</em>, 2024)</li>
+        <li>"Online Media Fragmentation and Political Polarization: A Cross-National Analysis of 51 Countries" (working paper)</li>
+      </ul>
     </div>
-    <div class="rcard__content">
-      <p class="rcard__summary">Affective polarization in Korea — distinguishing actual from <em>perceived</em> polarization and tracking it longitudinally — and the descriptive representation of women and its effect on participation.</p>
-      <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span>"Between Misperception and Exaggeration: A Longitudinal Analysis of Affective Polarization" (<em>한국정치학회보</em>, 2024); "Revisiting Candidate Gender Effects" (<em>Politics &amp; Gender</em>, forthcoming).</p>
-    </div>
+    <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Polarization">Related publications &rarr;</a>
   </article>
 
   <article class="rcard">
-    <div class="rcard__rail">
-      <div class="rcard__titlewrap"><i class="fas fa-fw fa-chart-line rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Economic Inequality</h2></div>
-      <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Inequality">Related publications &rarr;</a>
+    <div class="rcard__titlewrap"><i class="fas fa-fw fa-people-group rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Intergroup Politics: Gender, Immigrants, Youth</h2></div>
+    <p class="rcard__summary">Attitudes and behavior across social-group lines — gender and candidate evaluation, immigration and intergroup contact, and generational differences in political participation.</p>
+    <div class="rcard__rep">
+      <span class="rcard__rep-label">Representative work</span>
+      <ul class="rcard__replist">
+        <li>"Revisiting Candidate Gender Effects: Heuristics, Sexism, and Information Environments" (<em>Politics &amp; Gender</em>, forthcoming)</li>
+        <li>"Inequality and Attitudes toward Immigration: the Native-Immigrant Gap" (<em>Australian Journal of Political Science</em>, 2020)</li>
+      </ul>
     </div>
-    <div class="rcard__content">
-      <p class="rcard__summary">How wealth inequality shapes perceptions of social mobility, subjective well-being, and political behavior.</p>
-      <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span>"Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility" (<em>Social Forces</em>, 2024); "Envy and Pride: How Economic Inequality Deepens Happiness Inequality" (<em>Social Indicators Research</em>, 2020).</p>
-    </div>
+    <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Immigration">Related publications &rarr;</a>
   </article>
 
   <article class="rcard">
-    <div class="rcard__rail">
-      <div class="rcard__titlewrap"><i class="fas fa-fw fa-earth-asia rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Intergroup Politics</h2></div>
-      <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Immigration">Related publications &rarr;</a>
+    <div class="rcard__titlewrap"><i class="fas fa-fw fa-check-to-slot rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Election and Voting Behavior</h2></div>
+    <p class="rcard__summary">How voters decide and what moves turnout and vote choice — the opportunity costs of voting and election-day weather, heuristics in low-information elections, incumbency, and candidate appearance.</p>
+    <div class="rcard__rep">
+      <span class="rcard__rep-label">Representative work</span>
+      <ul class="rcard__replist">
+        <li>"The Liberals Should Pray for Rain" (<em>Political Science</em>, 2019)</li>
+        <li>"Making Sense of Heuristics Choice in Nonpartisan Elections" (<em>Political Behavior</em>, 2024)</li>
+      </ul>
     </div>
-    <div class="rcard__content">
-      <p class="rcard__summary">Attitudes toward out-groups — immigrants and North Korean refugees — and the long-run political legacies of conflict.</p>
-      <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span>"Inequality and Attitudes toward Immigration: the Native-Immigrant Gap" (<em>Australian Journal of Political Science</em>, 2020); "Unexplored Consequences of Violence against Civilians during the Korean War" (<em>Journal of East Asian Studies</em>, 2017).</p>
-    </div>
+    <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Elections">Related publications &rarr;</a>
   </article>
 
-  <article class="rcard rcard--feature">
-    <div class="rcard__rail">
-      <span class="rcard__badge">Current agenda</span>
-      <div class="rcard__titlewrap"><i class="fas fa-fw fa-face-smile rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Politics of Face</h2></div>
-      <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Face">Related publications &rarr;</a>
+  <article class="rcard">
+    <div class="rcard__titlewrap"><i class="fas fa-fw fa-scale-unbalanced rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">Inequality</h2></div>
+    <p class="rcard__summary">How wealth and economic inequality shape perceptions of social mobility, subjective well-being, and political behavior.</p>
+    <div class="rcard__rep">
+      <span class="rcard__rep-label">Representative work</span>
+      <ul class="rcard__replist">
+        <li>"Stuck in an Unequal Society: Wealth Inequality and Pessimistic Prospects on Future Social Mobility" (<em>Social Forces</em>, 2024)</li>
+        <li>"Envy and Pride: How Economic Inequality Deepens Happiness Inequality" (<em>Social Indicators Research</em>, 2020)</li>
+      </ul>
     </div>
-    <div class="rcard__content">
-      <p class="rcard__summary">A current agenda using candidate images and computational methods to study how facial cues — smiles, gender typicality — relate to perceived competence and electoral outcomes.</p>
-      <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span>"Smile to Win: How do Candidates' Smiles Affect Election Outcomes?" (<em>한국정치학회보</em>, 2022); "Politics of Face: Gender Typicality, Perceived Competence and Electoral Viability" (working paper).</p>
-    </div>
+    <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Inequality">Related publications &rarr;</a>
   </article>
 
 </div>
