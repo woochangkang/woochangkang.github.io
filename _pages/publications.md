@@ -20,12 +20,15 @@ author_profile: true
 <div class="filter-chips" id="topicFilter">
   <span class="filter-chips__label">Filter by topic</span>
   <button class="chip is-active" data-topic="all">All</button>
+  <button class="chip" data-topic="Elections &amp; voting">Elections &amp; voting</button>
   <button class="chip" data-topic="Polarization">Polarization</button>
-  <button class="chip" data-topic="Gender">Gender</button>
-  <button class="chip" data-topic="Elections &amp; weather">Elections &amp; weather</button>
-  <button class="chip" data-topic="Immigration">Immigration</button>
-  <button class="chip" data-topic="Inequality">Inequality</button>
+  <button class="chip" data-topic="Gender &amp; representation">Gender &amp; representation</button>
+  <button class="chip" data-topic="Economic inequality">Economic inequality</button>
+  <button class="chip" data-topic="Immigration &amp; intergroup">Immigration &amp; intergroup</button>
+  <button class="chip" data-topic="North Korea">North Korea</button>
+  <button class="chip" data-topic="Weather &amp; turnout">Weather &amp; turnout</button>
   <button class="chip" data-topic="Politics of face">Politics of face</button>
+  <button class="chip" data-topic="Historical legacies">Historical legacies</button>
 </div>
 
 <h2 id="english">Peer-reviewed articles (English)</h2>
