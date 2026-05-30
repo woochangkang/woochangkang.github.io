@@ -7,18 +7,17 @@ author_profile: true
 
 <p class="research-intro">I study how voters and political elites interact in representative democracies — with a focus on inequalities among social groups by partisanship, gender, age, and migration status. A full list of work is on the <a href="{{ '/publications/' | relative_url }}">Publications</a> page.</p>
 
-<div class="method-tags">
-  <span class="method-tag">Survey &amp; conjoint experiments</span>
-  <span class="method-tag">Administrative &amp; electoral data</span>
-  <span class="method-tag">Computational image measures</span>
-</div>
-
 <div class="research-cards">
 
   <article class="rcard">
     <div class="rcard__titlewrap"><i class="fas fa-fw fa-robot rcard__icon" aria-hidden="true"></i><h2 class="rcard__title">AI and Political Science</h2></div>
-    <p class="rcard__summary">An emerging agenda using vision-language models (e.g., GPT-4o, Claude) to evaluate political candidates' faces and other political stimuli — comparing machine and human judgments, probing what models "see," and using AI to scale image-based measurement in political science.</p>
-    <p class="rcard__rep"><span class="rcard__rep-label">Representative work</span><em>Working papers in progress.</em></p>
+    <p class="rcard__summary">An emerging agenda using large language models and vision-language models (e.g., GPT-4o, Claude) to evaluate political stimuli and candidates — comparing machine and human judgments, probing what models "see," and using AI to scale image- and text-based measurement in political science.</p>
+    <div class="rcard__rep">
+      <span class="rcard__rep-label">Representative work</span>
+      <ul class="rcard__replist">
+        <li>"A benchmark dataset for evaluating gender sensitivity in Korean political discourse with large language models" (<em>Scientific Data</em>, 2025)</li>
+      </ul>
+    </div>
   </article>
 
   <article class="rcard">
