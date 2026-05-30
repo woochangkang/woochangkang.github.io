@@ -1,0 +1,44 @@
+name: Sync publications from Zotero
+
+# Adds new authored papers from Zotero to _publications/ (never modifies
+# existing files). Run manually or weekly. Requires repo secrets:
+#   ZOTERO_USER_ID, ZOTERO_API_KEY
+
+on:
+  workflow_dispatch:        # manual "Run workflow" button
+  schedule:
+    - cron: "0 6 * * 1"     # every Monday 06:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pyzotero
+        run: pip install pyzotero
+
+      - name: Sync new publications from Zotero
+        env:
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+        run: python scripts/sync_publications.py
+
+      - name: Commit new publication files (if any)
+        run: |
+          if [ -n "$(git status --porcelain _publications)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _publications
+            git commit -m "Auto-add new publications from Zotero"
+            git push
+          else
+            echo "No new publications."
+          fi

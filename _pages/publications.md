@@ -20,6 +20,7 @@ author_profile: true
 <div class="filter-chips" id="topicFilter">
   <span class="filter-chips__label">Filter</span>
   <button class="chip is-active" data-topic="all">All</button>
+  <button class="chip" data-topic="AI">AI</button>
   <button class="chip" data-topic="Elections">Elections</button>
   <button class="chip" data-topic="Voting">Voting</button>
   <button class="chip" data-topic="Public Opinion">Public Opinion</button>

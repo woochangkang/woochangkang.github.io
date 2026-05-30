@@ -18,6 +18,7 @@ author_profile: true
         <li>"A benchmark dataset for evaluating gender sensitivity in Korean political discourse with large language models" (<em>Scientific Data</em>, 2025)</li>
       </ul>
     </div>
+    <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=AI">Related publications &rarr;</a>
   </article>
 
   <article class="rcard">
