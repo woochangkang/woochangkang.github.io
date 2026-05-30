@@ -35,6 +35,7 @@ author_profile: true
   <button class="chip" data-topic="US">US</button>
   <button class="chip" data-topic="Australia">Australia</button>
   <button class="chip" data-topic="North Korea">North Korea</button>
+  <button class="chip" data-topic="Cross-national Studies">Cross-national Studies</button>
 </div>
 
 <h2 id="english">Peer-reviewed articles (English)</h2>
