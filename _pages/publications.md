@@ -52,9 +52,11 @@ author_profile: true
 </section>
 
 <section class="pub-tab" data-tab="wip" hidden>
+{% comment %} Rule: working papers WITH an abstract are listed first, then the rest (each group newest-first). {% endcomment %}
 {% assign wip = site.publications | where: "category", "wip" | sort: "date" | reverse %}
 <ol class="pub-list">
-{% for p in wip %}{% include publication-item.html p=p %}{% endfor %}
+{% for p in wip %}{% assign a = p.content | strip_html | strip %}{% if a != "" %}{% include publication-item.html p=p %}{% endif %}{% endfor %}
+{% for p in wip %}{% assign a = p.content | strip_html | strip %}{% if a == "" %}{% include publication-item.html p=p %}{% endif %}{% endfor %}
 </ol>
 </section>
 
