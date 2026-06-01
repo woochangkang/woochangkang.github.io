@@ -21,6 +21,16 @@ def cred():
            os.environ.get("ZOTERO_API_KEY") or env.get("ZOTERO_API_KEY")
 
 def norm(s): return re.sub(r"\s+", " ", re.sub(r"[^\w가-힣]", " ", (s or "").lower())).strip()
+
+def clean_latex(t):
+    if not t: return t
+    t = re.sub(r'\\(?:textit|textbf|emph|text|mathrm|mathit|textsc|texttt)\{([^{}]*)\}', r'\1', t)
+    t = re.sub(r'\\(?:cite|citep|citet|ref|eqref|label|footnote)\{[^{}]*\}', '', t)
+    t = re.sub(r'\$\$?(.*?)\$\$?', r'\1', t)
+    t = (t.replace('\\%','%').replace('\\&','&').replace('\\_','_').replace('\\#','#')
+          .replace('\\$','$').replace('~',' ').replace('\\,',' ').replace('``','"').replace("''",'"'))
+    t = re.sub(r'\\[a-zA-Z]+\*?', '', t).replace('{','').replace('}','')
+    return re.sub(r'\s+', ' ', t).strip()
 def tnorm(s): return norm(re.sub(r"\[.*?\]", "", s or ""))   # title match, ignoring [..] suffixes
 
 def is_me(d):
@@ -121,7 +131,7 @@ def main():
         if d.get("DOI"): fm.append("doi: %s" % yq(d["DOI"]))
         fm.append("tags: []   # TODO: add topic tags")
         fm.append("---")
-        body = (d.get("abstractNote","") or "").strip()   # abstract -> Show abstract
+        body = clean_latex((d.get("abstractNote","") or "").strip())   # abstract -> Show abstract
         out = "\n".join(fm) + "\n" + ("\n" + body + "\n" if body else "")
         path = os.path.join(PUB, "%s-%s.md" % (date, slug))
         print("  NEW [%s] %s — %s" % (cat, year, d.get("title","")[:64]))
