@@ -71,10 +71,19 @@ def main():
     zot = zotero.Zotero(uid, "user", key)
     items = zot.everything(zot.items(q="Woo Chang Kang", qmode="titleCreatorYear")) + \
             zot.everything(zot.items(q="강우창", qmode="titleCreatorYear"))
+    # Working papers live in the "My Working Papers" collection — never treat
+    # them as published articles (they have no venue/date and belong in the
+    # Works-in-progress section, not the publication list).
+    WIP_COLLECTION = "D3IVWRX8"
+    try:
+        wip_keys = set(x["key"] for x in zot.everything(zot.collection_items(WIP_COLLECTION)))
+    except Exception:
+        wip_keys = set()
     seen, mine = set(), []
     for it in items:
         if it["key"] in seen: continue
         seen.add(it["key"])
+        if it["key"] in wip_keys: continue
         if it["data"].get("itemType") == "journalArticle" and is_me(it["data"]):
             mine.append(it)
     dois, titles = existing_keys()
