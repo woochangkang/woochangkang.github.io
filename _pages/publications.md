@@ -13,7 +13,7 @@ author_profile: true
 <div class="pub-metrics" id="pubTabs" role="tablist">
   <button class="metric is-active" data-tab="english"><span class="metric__n">{{ en | size }}</span><span class="metric__l">English articles</span></button>
   <button class="metric" data-tab="korean"><span class="metric__n">{{ ko | size }}</span><span class="metric__l">Korean articles</span></button>
-  <button class="metric" data-tab="wip"><span class="metric__n">9</span><span class="metric__l">Works in progress</span></button>
+  <button class="metric" data-tab="wip"><span class="metric__n">{{ site.publications | where: "category", "wip" | size }}</span><span class="metric__l">Works in progress</span></button>
   <button class="metric" data-tab="grants"><span class="metric__n">6</span><span class="metric__l">Grants</span></button>
 </div>
 
