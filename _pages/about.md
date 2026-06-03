@@ -41,13 +41,13 @@ redirect_from:
     <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View all &rarr;</a>
   </div>
   <div class="pub-cards">
-  {% assign published = site.publications | where_exp: "p", "p.category != 'wip'" %}
-  {% assign recent = published | sort: "date" | reverse %}
-  {% for p in recent limit: 5 %}<div class="pub-card">
-    <div class="pub-card__title">{{ p.title }}</div>
+  {% comment %} One representative paper per Research-page category — keep in sync with the first "Representative work" item in _pages/research.md. {% endcomment %}
+  {% assign featured = "/publications/z-efph9mqm,/publications/korean-08,/publications/english-22,/publications/english-18,/publications/english-19" | split: "," %}
+  {% for link in featured %}{% assign p = site.publications | where: "permalink", link | first %}{% if p %}<div class="pub-card">
+    <div class="pub-card__title">{% if p.title_en %}{{ p.title_en }}{% else %}{{ p.title }}{% endif %}</div>
     <div class="pub-card__meta">{{ p.authors }} &middot; <em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %} ({{ p.year }}){% if p.doi %} &middot; <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI</a>{% elsif p.link %} &middot; <a href="{{ p.link }}" target="_blank" rel="noopener">Link</a>{% endif %}</div>
   </div>
-  {% endfor %}</div>
+  {% endif %}{% endfor %}</div>
 </section>
 
 <section class="home-section">

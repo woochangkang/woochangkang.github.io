@@ -53,8 +53,8 @@ author_profile: true
     <div class="rcard__rep">
       <span class="rcard__rep-label">Representative work</span>
       <ul class="rcard__replist">
-        <li>"The Liberals Should Pray for Rain" (<em>Political Science</em>, 2019)</li>
         <li>"Making Sense of Heuristics Choice in Nonpartisan Elections" (<em>Political Behavior</em>, 2024)</li>
+        <li>"The Liberals Should Pray for Rain" (<em>Political Science</em>, 2019)</li>
       </ul>
     </div>
     <a class="rcard__link" href="{{ '/publications/' | relative_url }}#topic=Elections">Related publications &rarr;</a>
