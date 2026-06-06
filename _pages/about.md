@@ -25,32 +25,6 @@ redirect_from:
 </div>
 
 <section class="home-section">
-  <h2 class="home-section__label">Research interests</h2>
-  <div class="tag-row">
-    <span class="tag">Representation &amp; Polarization</span>
-    <span class="tag">Gender &amp; Intergroup Politics</span>
-    <span class="tag">Immigration</span>
-    <span class="tag">Economic Inequality</span>
-    <span class="tag">Politics of Face</span>
-  </div>
-</section>
-
-<section class="home-section">
-  <div class="home-section__head">
-    <h2 class="home-section__label">Selected publications</h2>
-    <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View all &rarr;</a>
-  </div>
-  <div class="pub-cards">
-  {% comment %} One representative paper per Research-page category — keep in sync with the first "Representative work" item in _pages/research.md. {% endcomment %}
-  {% assign featured = "/publications/z-efph9mqm,/publications/korean-08,/publications/english-22,/publications/english-18,/publications/english-19" | split: "," %}
-  {% for link in featured %}{% assign p = site.publications | where: "permalink", link | first %}{% if p %}<div class="pub-card">
-    <div class="pub-card__title">{% if p.title_en %}{{ p.title_en }}{% else %}{{ p.title }}{% endif %}</div>
-    <div class="pub-card__meta">{{ p.authors }} &middot; <em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %} ({{ p.year }}){% if p.doi %} &middot; <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI</a>{% elsif p.link %} &middot; <a href="{{ p.link }}" target="_blank" rel="noopener">Link</a>{% endif %}</div>
-  </div>
-  {% endif %}{% endfor %}</div>
-</section>
-
-<section class="home-section">
   <h2 class="home-section__label">About</h2>
   <p>I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University. My research explores the interactions between voters and political elites during political processes within representative democracy, aiming to identify ways to mitigate inequalities and enhance representation.</p>
 </section>
@@ -62,4 +36,36 @@ redirect_from:
     <li>M.A. in Politics, Korea University</li>
     <li>B.A. in English Literature, Korea University</li>
   </ul>
+</section>
+
+<section class="home-section">
+  <h2 class="home-section__label">Research interests</h2>
+  <div class="tag-row">
+    <span class="tag">AI and Politics</span>
+    <span class="tag">Representation &amp; Polarization</span>
+    <span class="tag">Gender &amp; Intergroup Politics</span>
+    <span class="tag">Immigration</span>
+    <span class="tag">Economic Inequality</span>
+    <span class="tag">Election</span>
+    <span class="tag">Voting Behavior</span>
+    <span class="tag">Politics of Face</span>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="home-section__head">
+    <h2 class="home-section__label">Recent publications</h2>
+    <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View all &rarr;</a>
+  </div>
+  <div class="pub-cards">
+  {% comment %} Forthcoming papers first, then the most recent published articles. {% endcomment %}
+  {% assign published = site.publications | where_exp: "p", "p.category != 'wip'" %}
+  {% assign fc = published | where_exp: "p", "p.forthcoming == true" | sort: "date" | reverse %}
+  {% assign rest = published | where_exp: "p", "p.forthcoming != true" | sort: "date" | reverse %}
+  {% assign ordered = fc | concat: rest %}
+  {% for p in ordered limit: 5 %}<div class="pub-card">
+    <div class="pub-card__title">{% if p.title_en %}{{ p.title_en }}{% else %}{{ p.title }}{% endif %}</div>
+    <div class="pub-card__meta">{{ p.authors }} &middot; <em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %} ({{ p.year }}){% if p.doi %} &middot; <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI</a>{% elsif p.link %} &middot; <a href="{{ p.link }}" target="_blank" rel="noopener">Link</a>{% endif %}</div>
+  </div>
+  {% endfor %}</div>
 </section>
