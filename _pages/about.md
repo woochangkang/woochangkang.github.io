@@ -12,7 +12,7 @@ redirect_from:
   <img class="home-hero__avatar" src="{{ '/images/profile.png' | relative_url }}" alt="Woo Chang Kang">
   <div class="home-hero__body">
     <h1 class="home-hero__name">Woo Chang Kang</h1>
-    <p class="home-hero__role">Associate Professor of Political Science, Korea University, South Korea</p>
+    <p class="home-hero__role">Associate Professor of Political Science<br>Korea University, South Korea</p>
     <div class="home-hero__links">
       <a href="mailto:{{ site.author.email }}">Email</a>
       <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
