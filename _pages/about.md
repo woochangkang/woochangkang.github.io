@@ -26,7 +26,7 @@ redirect_from:
 
 <section class="home-section">
   <h2 class="home-section__label">About</h2>
-  <p>I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015. Before joining Korea University in 2019, I worked as a postdoc at Yale University and a lecturer at the Australian National University.</p>
+  <p>I am an associate professor in the Department of Politics and International Relations at Korea University. I received my Ph.D. from New York University in 2015, and before joining Korea University in 2019 I worked as a postdoc at Yale University and a lecturer at the Australian National University.</p>
 </section>
 
 <section class="home-section">
