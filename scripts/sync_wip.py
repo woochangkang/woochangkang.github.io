@@ -11,7 +11,8 @@ top by the publications-page rule.
     python scripts/sync_wip.py
 """
 import os, re, json, datetime
-PUB = os.path.expanduser("~/Library/CloudStorage/Dropbox/projects/woochangkang.github.io/_publications")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PUB = os.path.join(ROOT, "_publications")
 WIP_COLLECTION = "D3IVWRX8"
 VOCAB = {"AI","Elections","Voting","Public Opinion","Polarization","Gender","Inequality",
          "Real Estate Price","Immigration","Weather","Face","Legacies","South Korea","US",
