@@ -2,7 +2,6 @@
 title: "교실 밖의 정치학: 우리가 만든 참여예산"
 subtitle: "청년이 제안하는 지역 문제 해결 프로젝트"
 year: 2025
-publisher: "버니온더문"
 cover: "/images/outside2025.png"
 buy: "https://product.kyobobook.co.kr/detail/S000217566686"
 buylabel: "교보문고"

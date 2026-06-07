@@ -1,5 +1,5 @@
 ---
-title: "교실 밖의 정치학 2: 우리가 만든 조례"
+title: "교실 밖의 정치학: 우리가 만든 조례"
 subtitle: "현실의 다양한 목소리를 담은 새로운 조례안 만들기"
 year: 2023
 cover: "/images/outside2023.png"
