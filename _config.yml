@@ -207,6 +207,8 @@ collections:
     output: false
   media:
     output: false
+  livinglab_books:
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/

@@ -1,0 +1,79 @@
+// Living Lab: intro pullquote + bookshelf cards (cyan accent + dark mode)
+.ll-quote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid $accent;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #222;
+}
+
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.book {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+.book__cover { flex: 0 0 110px; }
+.book__cover img {
+  width: 110px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+.book__year { margin: 0; font-size: .78rem; font-weight: 600; color: $accent; }
+.book__title { margin: .15rem 0 .5rem; font-size: 1.05rem; font-weight: 700; line-height: 1.35; }
+.book__subtitle { margin: -.35rem 0 .5rem; font-size: .85rem; color: #777; }
+.book__desc { margin: 0 0 .9rem; font-size: .9rem; color: #555; line-height: 1.55; }
+.book__desc p { margin: 0; }
+.book__projects { margin: .3rem 0 .8rem; }
+.book__projects summary {
+  cursor: pointer;
+  font-size: .82rem;
+  color: $accent;
+  list-style: none;
+}
+.book__projects summary::-webkit-details-marker { display: none; }
+.proj__part { margin: .8rem 0 .3rem; font-size: .82rem; font-weight: 700; color: #444; }
+.proj__list { margin: 0 0 .4rem; padding-left: 1rem; }
+.proj__list li { margin: .25rem 0; font-size: .85rem; line-height: 1.4; }
+.proj__title { display: block; color: #333; }
+.proj__students { display: block; font-size: .78rem; color: #999; }
+.book__links { display: flex; gap: .5rem; flex-wrap: wrap; }
+.book__btn {
+  padding: 5px 12px;
+  font-size: .82rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-decoration: none;
+  color: $accent;
+}
+
+@media (max-width: 560px) {
+  .book { flex-direction: column; }
+  .book__cover { flex: 0 0 auto; }
+  .book__cover img { width: 130px; }
+}
+
+html[data-theme="dark"] {
+  .ll-quote { color: $dk-text; border-left-color: $dk-link; }
+  .book { border-color: $dk-border; }
+  .book__year { color: $dk-link; }
+  .book__title { color: #f1f4f9; }
+  .book__subtitle, .book__desc { color: $dk-muted; }
+  .book__projects summary { color: $dk-link; }
+  .proj__part { color: $dk-text; }
+  .proj__title { color: $dk-text; }
+  .proj__students { color: $dk-muted; }
+  .book__btn { color: $dk-link; border-color: $dk-border; }
+}

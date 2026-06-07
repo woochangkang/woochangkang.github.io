@@ -1,0 +1,28 @@
+<div class="book">
+  <a class="book__cover" href="{% if include.b.buy %}{{ include.b.buy }}{% else %}{{ include.b.download | relative_url }}{% endif %}" target="_blank" rel="noopener">
+    <img src="{{ include.b.cover | relative_url }}" alt="{{ include.b.title }}" loading="lazy">
+  </a>
+  <div class="book__body">
+    <p class="book__year">{{ include.b.year }}{% if include.b.publisher %} &middot; {{ include.b.publisher }}{% endif %}</p>
+    <p class="book__title">{{ include.b.title }}</p>
+    {% if include.b.subtitle %}<p class="book__subtitle">{{ include.b.subtitle }}</p>{% endif %}
+    <div class="book__desc">{{ include.b.content | markdownify }}</div>
+    {% if include.b.projects %}
+    <details class="book__projects">
+      <summary>수록 프로젝트 보기</summary>
+      {% for p in include.b.projects %}
+      <p class="proj__part">{{ p.part }}</p>
+      <ul class="proj__list">
+        {% for it in p.items %}
+        <li><span class="proj__title">{{ it.title }}</span><span class="proj__students">{{ it.students }}</span></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </details>
+    {% endif %}
+    <div class="book__links">
+      {% if include.b.download %}<a class="book__btn" href="{{ include.b.download | relative_url }}" target="_blank" rel="noopener">{{ include.b.downloadlabel | default: "PDF" }}</a>{% endif %}
+      {% if include.b.buy %}<a class="book__btn" href="{{ include.b.buy }}" target="_blank" rel="noopener">{{ include.b.buylabel | default: "구입" }}</a>{% endif %}
+    </div>
+  </div>
+</div>
