@@ -205,6 +205,8 @@ collections:
     permalink: /:collection/:path/
   publications:
     output: false
+  media:
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/

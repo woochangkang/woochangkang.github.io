@@ -1,0 +1,78 @@
+// Media: clickable video card grid (same card language as home/pubs/research)
+.vid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1em 0 2em;
+}
+
+.vid {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.vid__thumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eee;
+}
+.vid__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+.vid:hover .vid__thumb img { transform: scale(1.04); }
+
+.vid__play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+}
+
+.vid__year {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 2px 7px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #222;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 4px;
+}
+
+.vid__outlet {
+  margin: 0.6rem 0 0.15rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.vid__title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+html[data-theme="dark"] {
+  .vid__thumb { background: $dk-surface; }
+  .vid__outlet { color: $dk-link; }
+  .vid__title { color: $dk-text; }
+  .vid:hover .vid__title { color: $dk-link; }
+}

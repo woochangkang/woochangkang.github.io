@@ -1,0 +1,9 @@
+<a class="vid" href="https://www.youtube.com/watch?v={{ include.m.videoid }}{% if include.m.start %}&t={{ include.m.start }}s{% endif %}" target="_blank" rel="noopener">
+  <div class="vid__thumb">
+    <img src="https://img.youtube.com/vi/{{ include.m.videoid }}/hqdefault.jpg" alt="{{ include.m.title }}" loading="lazy">
+    <span class="vid__play"><i class="fas fa-play" aria-hidden="true"></i></span>
+    <span class="vid__year">{{ include.m.year }}</span>
+  </div>
+  <p class="vid__outlet">{{ include.m.outlet }}</p>
+  <p class="vid__title">{{ include.m.title }}</p>
+</a>
