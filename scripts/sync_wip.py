@@ -10,7 +10,7 @@ top by the publications-page rule.
 
     python scripts/sync_wip.py
 """
-import os, re, json
+import os, re, json, datetime
 PUB = os.path.expanduser("~/Library/CloudStorage/Dropbox/projects/woochangkang.github.io/_publications")
 WIP_COLLECTION = "D3IVWRX8"
 VOCAB = {"AI","Elections","Voting","Public Opinion","Polarization","Gender","Inequality",
@@ -24,9 +24,11 @@ FALLBACK = [
  ("Correcting Political Misperceptions to Rebuild Norms of Good Citizenship in Polarized Democracies: Evidence from South Korea","Kang, Woo Chang and Hannah Kim",["Polarization","Public Opinion","South Korea"]),
  ("Online Media Fragmentation and Political Polarization: A Cross-National Analysis of 51 Countries","Kang, Woo Chang and Hong-gie Kim",["Polarization","Cross-national Studies"]),
  ("Unraveling Gender Bias in Candidate Evaluations through the Analysis of Representativeness, Competence, and Electability","Kang, Woo Chang",["Gender","Public Opinion"]),
- ("How Does International Naming and Shaming Affect South Korean Attitudes Toward Refugees?","Kang, Woo Chang and Han Il Chang",["Immigration","Public Opinion","South Korea"]),
+ ("How Does International Naming and Shaming Affect South Korean Attitudes Toward Refugees?","Kang, Woo Chang, Han Il Chang and Taejun Choi",["Immigration","Public Opinion","South Korea"]),
  ("Politics of Face: Gender Typicality, Perceived Competence and Electoral Viability","Kang, Woo Chang",["Face","Gender","South Korea"]),
- ("Democratic Accountability in East Asia: A Comparative Experimental Study of Voter Responses to Norm Violations","Kang, Woo Chang, Sunkyoung Park, Osbern Huang, Koh Iwabuchi and Tetsuro Kobayashi",["Public Opinion","Cross-national Studies","US"]),
+ ("A Uniform Penalty: Babyfacedness and Candidate Evaluation in Korea","Kang, Woo Chang and Sumin Kim",["Face","Public Opinion","South Korea"]),
+ ("Critical Mass, Critical Actors, and Men's Gender Discourse: Evidence from Korean National Assembly Standing Committees","Kang, Woo Chang, Taegyoon Kim and Sunkyoung Park",["Gender","Public Opinion","South Korea"]),
+ ("Democratic Accountability in East Asia","Kang, Woo Chang, Sunkyoung Park, Osbern Huang, Koh Iwabuchi and Tetsuro Kobayashi",["Public Opinion","Cross-national Studies","US"]),
  ("Electoral Effect of Stop and Frisk","Kang, Woo Chang and Chris Dawes",["Elections","US"]),
 ]
 
@@ -81,7 +83,9 @@ def main():
 
     entries, z_titles = [], set()
     for it in sorted(z_items, key=lambda x: x["data"].get("dateAdded",""), reverse=True):
-        d = it["data"]; title = d.get("title","").strip(); z_titles.add(norm(title))
+        d = it["data"]; title = d.get("title","").strip()
+        if norm(title) in z_titles: continue        # skip duplicate items within Zotero
+        z_titles.add(norm(title))
         fb = fb_by_title.get(norm(title))
         tags = fb[2] if fb else [t["tag"] for t in d.get("tags",[]) if t["tag"] in VOCAB]
         authors = bold(fb[1]) if fb else bold(fmt_authors(d.get("creators",[])))
@@ -94,14 +98,14 @@ def main():
         if "wip-" in f: os.remove(os.path.join(PUB,f))
     n = len(entries)
     for i,(title,authors,tags,ab) in enumerate(entries):
-        date = "2030-%02d-01" % (n - i)             # preserves order on date-reverse
+        date = (datetime.date(2030, 1, 1) + datetime.timedelta(days=(n - i))).isoformat()  # valid dates, order preserved on date-reverse
         fm = ["---", "title: %s"%q(title), "collection: publications", "category: wip",
               'year: ""', "authors: %s"%q(authors), 'venue: ""', 'detail: ""',
               "date: %s"%date, "permalink: /publications/wip-%02d"%(i+1),
               "tags: [" + ", ".join(q(t) for t in tags) + "]", "---"]
         open(os.path.join(PUB, "%s-wip-%02d.md"%(date,i+1)), "w", encoding="utf-8").write(
             "\n".join(fm) + "\n" + ("\n"+ab+"\n" if ab else ""))
-    print("wrote %d wip entries (%d from Zotero, %d fallback-only)" % (n, len(z_items), n-len(z_items)))
+    print("wrote %d wip entries (%d from Zotero, %d fallback-only)" % (n, len(z_titles), n-len(z_titles)))
 
 if __name__ == "__main__":
     main()
